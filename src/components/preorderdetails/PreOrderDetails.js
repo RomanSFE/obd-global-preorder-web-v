@@ -2,16 +2,10 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './preorderdetails.css';
 
-import TopMenuSection from '../topmenusection/TopMenuSection';
-import FooterWebSection from '../allsections/footerwebsection/FooterWebSection';
-
 export default class PreOrderDetails extends Component {
     render() {
         return (
             <>
-            <div className="orponbd-womens-fashion-category-page-web-top-menu">
-                <TopMenuSection/>
-            </div>
             
             {/* Top Banner Box Start */}
             <div className="obd-pre-order-details-top-banner-section-web-box">
@@ -180,7 +174,7 @@ export default class PreOrderDetails extends Component {
                                 <div className="row pre-order-wv-det-prod-exx-pdddrw">
                                     {/* Single product start */}
                                     <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
+                                        <Link to="/products-details">
                                             <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/women-fas-cat-4.png')} alt="orponbd online shop"/>
                                             </div>
@@ -200,7 +194,7 @@ export default class PreOrderDetails extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
+                                        <Link to="/products-details">
                                             <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
@@ -220,7 +214,7 @@ export default class PreOrderDetails extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
+                                        <Link to="/products-details">
                                             <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
@@ -240,7 +234,7 @@ export default class PreOrderDetails extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
+                                        <Link to="/products-details">
                                             <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
                                             </div>
@@ -260,7 +254,7 @@ export default class PreOrderDetails extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
+                                        <Link to="/products-details">
                                             <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
                                             </div>
@@ -285,7 +279,7 @@ export default class PreOrderDetails extends Component {
                                 <div className="row best-sell-det-prod-exx-pdddrw">
                                     {/* Single product start */}
                                     <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
+                                        <Link to="/products-details">
                                             <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/women-fas-cat-7.png')} alt="orponbd online shop"/>
                                             </div>
@@ -305,7 +299,7 @@ export default class PreOrderDetails extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
+                                        <Link to="/products-details">
                                             <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/women-fas-cat-8.png')} alt="orponbd global collections"/>
                                             </div>
@@ -325,7 +319,7 @@ export default class PreOrderDetails extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
+                                        <Link to="/products-details">
                                             <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
                                             </div>
@@ -345,7 +339,7 @@ export default class PreOrderDetails extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
+                                        <Link to="/products-details">
                                             <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
@@ -365,7 +359,7 @@ export default class PreOrderDetails extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
+                                        <Link to="/products-details">
                                             <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
@@ -657,9 +651,6 @@ export default class PreOrderDetails extends Component {
            </div>
             {/* Products Section end Kitchenn -------- */}
 
-            <div className="orponbd-womens-fashion-category-page-web-top-menu">
-                <FooterWebSection/>
-            </div>
             </>
         )
     }

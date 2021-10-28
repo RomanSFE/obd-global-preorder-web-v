@@ -1,0 +1,84 @@
+.obd-pre-order-product-details-bg-wrap-bx {
+    background: #fff;
+    border-radius: 7px;
+    padding: 70px;
+    margin-top: 15px;
+}
+/* Main Product Image Start */
+.obd-pre-order-product-details-prod-main-img img {
+    width: 100%;
+    height: 412px;
+    border-radius: 6px;
+}
+.obd-pre-order-product-details-prod-sm-img {
+    margin-top: 15px;
+}
+.obd-pre-order-product-details-prod-sm-img ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.obd-pre-order-product-details-prod-sm-img ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+.obd-pre-order-product-details-prod-sm-img ul li img {
+    width: 55px;
+    height: 55px;
+    border-radius: 6px;
+    border: 1px solid #e9e9e9;
+    padding: 2px;
+    margin-bottom: 6px;
+}
+.obd-pre-order-product-details-prod-sm-img ul li img:hover {
+    border-color: tomato;
+    transition: .3s;
+}
+/* Main Product Image End */
+
+/* Product Content Text Part Start */
+.obd-pre-order-product-details-prod-content-bx {
+    margin-top: 55px;
+    padding-left: 40px;
+    padding-right: 16px;
+}
+.obd-pre-order-product-details-prod-content-bx h4 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #3c3d42;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.obd-pre-order-product-details-prod-content-bx p {
+    color: #6f6d6d;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 38px;
+}
+.obd-pre-order-product-details-prod-content-bx p span {
+    font-size: 16px;
+    margin-left: 8px;
+    color: #b5b5b5;
+}
+.obd-pre-order-product-details-prod-content-bx a {
+    background-color: tomato;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 12px 38px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-right: 24px;
+}
+.obd-pre-order-product-details-prod-content-bx a span {
+    margin-left: 15px;
+}
+.obd-pre-order-product-details-prod-content-bx a:hover {
+    background-color: #f54121;
+    transition: .3s;
+    box-shadow: 0 3px 7px rgb(247 135 70 / 80%);
+}
+
+/* Product Content Text Part End */

@@ -5,6 +5,7 @@ import './App.css';
 
 // Home Page Section
 import HomePageWeb from './components/homepage/HomePageWeb.js'
+import ProductDetails from './components/productdetails/ProductDetails';
 
 function App() {
   return (
@@ -14,9 +15,9 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomePageWeb}/>
 
-          {/* Pre Order Details  */}
-          {/* <Route path="/pre-order-details" component={PreOrderDetails}/> */}
-          {/* Pre Order Details  */}
+          {/* Products Details  */}
+          <Route path="/products-details" component={ProductDetails}/>
+          {/* Products Details  */}
 
         </Switch>
         

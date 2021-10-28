@@ -211,3 +211,28 @@ span.pre-order-wv-details-ttotl-star-rat-count {
     margin-bottom: 32px;
 }
 /* Product Section End */
+
+/* View More Button */
+.moreto-love-web-version-view-more-btn button {
+    background-color: #FF6347;
+    border: none;
+    border-radius: 35px;
+    padding: 5px 35px 5px 35px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    box-shadow: 0 0px 5px rgba(255, 103, 77,.8);
+}
+.moreto-love-web-version-view-more-btn button span {
+    margin-left: 5px;
+}
+.moreto-love-web-version-view-more-btn button:hover {
+    background-color: #f94322;
+    transition: .3s;
+}
+.moreto-love-web-version-view-more-btn {
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+/* View More Button */

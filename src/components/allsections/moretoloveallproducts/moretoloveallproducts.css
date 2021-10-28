@@ -1,0 +1,103 @@
+/* Product Section Start -------------*/
+/* New Item Sort and Select start */
+.obd-pre-order-all-product-lv-hed-section {
+    margin-top: 25px;
+}
+.obd-pre-order-all-product-lv-hed-txt-wv h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #53565F;
+}
+.obd-pre-order-all-product-lv-hed-txt-wv {
+    margin-top: 5px;
+}
+.obd-pre-order-all-product-lv-hed-txt-wv h4 span img {
+    width: 40px;
+}
+/* New Item Sort and Select End */
+
+/* Product Section start ---------- */
+.obd-pre-order-all-product-lv-web-v-sec-box {
+    margin-top: 18px;
+}
+.row.pre-order-wv-det-prod-lv-exx-pdddrw {
+    margin-bottom: 9px;
+    margin-left: -8px;
+}
+.obd-pre-order-all-product-lv-single-product {
+    background-color: #fff;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    padding: 2px;
+    width: 19%;
+    margin-left: 9px;
+}
+.obd-pre-order-all-product-lv-single-product a {
+    text-decoration: none;
+}
+.obd-pre-order-all-product-lv-single-product:hover {
+    transition: .3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.obd-pre-order-all-lv-single-product-web-vs-img img {
+    width: 100%;
+    height: 220px;
+    padding: 3px;
+    border-radius: 7px;
+}
+.obd-pre-order-all-lv-single-product-web-vs-img img:hover {
+    opacity: .70;
+    transition: .2s;
+}
+
+
+.obd-pre-order-all-lv-single-product-web-vsn-ttxt {
+    padding: 3px;
+    margin-top: -5px;
+}
+.obd-pre-order-all-lv-single-product-web-vsn-ttxt p {
+    font-size: 12px;
+    color: #9A9FAD;
+    line-height: 17px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+
+.obd-pre-order-all-lv-single-product-web-vsn-ttxt h3 {
+    font-size: 15px;
+    color: #FF6347;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.obd-only-for-pre-order-wv-details-view-more-buttonn {
+    margin-top: 25px;
+    margin-bottom: 32px;
+}
+/* Product Section End */
+
+/* View More Button */
+.moreto-love-web-version-view-more-btn button {
+    background-color: #FF6347;
+    border: none;
+    border-radius: 35px;
+    padding: 5px 35px 5px 35px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    box-shadow: 0 0px 5px rgba(255, 103, 77,.8);
+}
+.moreto-love-web-version-view-more-btn button span {
+    margin-left: 5px;
+}
+.moreto-love-web-version-view-more-btn button:hover {
+    background-color: #f94322;
+    transition: .3s;
+}
+.moreto-love-web-version-view-more-btn {
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+/* View More Button */
