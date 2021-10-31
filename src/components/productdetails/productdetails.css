@@ -1,3 +1,6 @@
+.obd-pre-order-product-details-main-sec {
+    margin-top: 67px;
+}
 .obd-pre-order-product-details-bg-wrap-bx {
     background: #fff;
     border-radius: 7px;
@@ -60,25 +63,49 @@
     margin-left: 8px;
     color: #b5b5b5;
 }
-.obd-pre-order-product-details-prod-content-bx a {
-    background-color: tomato;
+
+/* Buy Now And Add To Cart Start */
+.obd-pre-order-product-details-prod-content-buy-cart-bx ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.obd-pre-order-product-details-prod-content-buy-cart-bx ul li {
+    display: inline-block;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.obd-pre-order-product-details-prod-content-buy-cart-bx ul li a {
+    background-color: #323232;
     color: #fff;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     border-radius: 6px;
-    padding: 12px 38px;
+    padding: 8px 25px 8px 25px;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    padding-right: 24px;
+    text-align: center;
 }
-.obd-pre-order-product-details-prod-content-bx a span {
-    margin-left: 15px;
+.obd-pre-order-product-details-prod-content-buy-cart-bx button {
+    background-color: tomato;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 8px 25px 8px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
 }
-.obd-pre-order-product-details-prod-content-bx a:hover {
-    background-color: #f54121;
+.obd-pre-order-product-details-prod-content-buy-cart-bx ul li a:hover {
+    background-color: #161616;
     transition: .3s;
-    box-shadow: 0 3px 7px rgb(247 135 70 / 80%);
 }
+.obd-pre-order-product-details-prod-content-buy-cart-bx button:hover {
+    background-color: #ff3713;
+    transition: .3s;
+}
+/* Buy Now And Add To Cart End */
 
 /* Product Content Text Part End */

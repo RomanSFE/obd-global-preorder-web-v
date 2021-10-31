@@ -4,6 +4,12 @@
     background-color: #fff;
     border-bottom: 1px solid #ededed;
 }
+.obd-pre-order-product-details-topbar-menu-main-sec {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+}
 .obd-pre-order-product-details-topbar-logo-img img {
     width: 60%;
     margin-top: 13px;

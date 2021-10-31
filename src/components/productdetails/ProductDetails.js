@@ -42,10 +42,19 @@ class ProductDetails extends Component {
                         <div className="col-md-7">
                           <div className="obd-pre-order-product-details-prod-content-bx text-center">
                               <h4>Wood Handle Makeup Brush Set, Max Two Lines Here...</h4>
-                              <p>Price : $ 17 <span><del>$ 21</del></span></p>
-                              <Link to="/">
-                                Buy On Aliexpress <span><i className="fas fa-angle-right"></i></span>
-                              </Link>
+                              <p>Price : <span>৳</span> 550 <span><del><span>৳</span> 650</del></span></p>
+                          </div>
+                          <div className="obd-pre-order-product-details-prod-content-buy-cart-bx text-center">
+                              <ul>
+                                <li>
+                                  <Link to="/my-cart">
+                                      Buy Now
+                                  </Link>
+                                </li>
+                                <li>
+                                  <button type="submit">Add To Cart</button>
+                                </li>
+                              </ul>
                           </div>
                         </div>
                       </div>

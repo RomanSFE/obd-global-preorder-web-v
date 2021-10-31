@@ -6,6 +6,7 @@ import './App.css';
 // Home Page Section
 import HomePageWeb from './components/homepage/HomePageWeb.js'
 import ProductDetails from './components/productdetails/ProductDetails';
+import MyCartPage from './components/mycartpage/MyCartPage';
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
           {/* Products Details  */}
           <Route path="/products-details" component={ProductDetails}/>
           {/* Products Details  */}
+
+          {/* My Cart  */}
+          <Route path="/my-cart" component={MyCartPage}/>
+          {/* My Cart  */}
 
         </Switch>
         

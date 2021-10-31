@@ -121,12 +121,10 @@ class TopMenuSection extends Component {
 
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
                                                                             <input type="text" name="email" placeholder="Enter your email or Phone"/>
-                                                                            
                                                                         </div>
 
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
                                                                             <input type="password" name="password" placeholder="Enter your password"/>
-                                                                            
                                                                         </div>
 
                                                                         <div className="obd-customer-dash-user-login-form-secx text-left">
@@ -164,22 +162,18 @@ class TopMenuSection extends Component {
 
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
                                                                             <input type="text" name="name" placeholder="Enter your Name"/>
-                                                                            
                                                                         </div>
 
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
                                                                             <input type="text" name="phone"  placeholder="Enter your Phone Number"/>
-                                                                            
                                                                         </div>
 
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
                                                                             <input type="email" name="email" placeholder="Enter your email"/>
-                                                                            
                                                                         </div>
 
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
                                                                             <input type="password" name="password" placeholder="Enter your password"/>
-                                                                            
                                                                         </div>
 
                                                                         <div className="obd-customer-dash-user-login-form-secxz text-left">
