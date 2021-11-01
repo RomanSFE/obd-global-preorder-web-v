@@ -25,7 +25,7 @@ export default class PreOrderDetails extends Component {
                                     {/* Single Cat start */}
                                     <div className="col-md-3">
                                         <div className="pre-order-details-single-catt-box-wb-main-itm">
-                                            <Link to="">
+                                            <Link to="/kitchen-accessories">
                                                 <div className="pre-order-details-single-catt-box-wb text-center">
                                                     <img src={require('../../assets/pre-order-kitchen-1.png')} alt="orponbd online shop"/>
                                                     <p>Kitchen Accessories</p>
@@ -37,7 +37,7 @@ export default class PreOrderDetails extends Component {
                                      {/* Single Cat start */}
                                     <div className="col-md-3">
                                         <div className="pre-order-details-single-catt-box-wb-main-itm">
-                                            <Link to="">
+                                            <Link to="/mens-fashion">
                                                 <div className="pre-order-details-single-catt-box-wb text-center">
                                                     <img src={require('../../assets/pre-order-menn-2.png')} alt="orponbd online shop"/>
                                                     <p>Men's Fashion</p>
@@ -49,7 +49,7 @@ export default class PreOrderDetails extends Component {
                                       {/* Single Cat start */}
                                     <div className="col-md-3">
                                         <div className="pre-order-details-single-catt-box-wb-main-itm">
-                                            <Link to="">
+                                            <Link to="/womens-fashion">
                                                 <div className="pre-order-details-single-catt-box-wb text-center">
                                                     <img src={require('../../assets/pre-order-womens-3.png')} alt="orponbd online shop"/>
                                                     <p>Women's Fashion</p>
@@ -61,7 +61,7 @@ export default class PreOrderDetails extends Component {
                                      {/* Single Cat start */}
                                     <div className="col-md-3">
                                         <div className="pre-order-details-single-catt-box-wb-main-itm">
-                                            <Link to="">
+                                            <Link to="/home-and-living">
                                                 <div className="pre-order-details-single-catt-box-wb text-center">
                                                     <img src={require('../../assets/pre-order-home-livv-4.png')} alt="orponbd online shop"/>
                                                     <p>Home & Living</p>
@@ -78,7 +78,7 @@ export default class PreOrderDetails extends Component {
                                     {/* Single Cat start */}
                                     <div className="col-md-3">
                                         <div className="pre-order-details-single-catt-box-wb-main-itm">
-                                            <Link to="">
+                                            <Link to="/baby-zone">
                                                 <div className="pre-order-details-single-catt-box-wb text-center">
                                                     <img src={require('../../assets/pre-order-kitchen-1.png')} alt="orponbd online shop"/>
                                                     <p>Baby Zone</p>
@@ -90,7 +90,7 @@ export default class PreOrderDetails extends Component {
                                      {/* Single Cat start */}
                                     <div className="col-md-3">
                                         <div className="pre-order-details-single-catt-box-wb-main-itm">
-                                            <Link to="">
+                                            <Link to="/smart-watches">
                                                 <div className="pre-order-details-single-catt-box-wb text-center">
                                                     <img src={require('../../assets/pre-order-menn-2.png')} alt="orponbd online shop"/>
                                                     <p>Smart Watches</p>
@@ -102,7 +102,7 @@ export default class PreOrderDetails extends Component {
                                       {/* Single Cat start */}
                                     <div className="col-md-3">
                                         <div className="pre-order-details-single-catt-box-wb-main-itm">
-                                            <Link to="">
+                                            <Link to="/mobile-accessories">
                                                 <div className="pre-order-details-single-catt-box-wb text-center">
                                                     <img src={require('../../assets/pre-order-womens-3.png')} alt="orponbd online shop"/>
                                                     <p>Mobile Accessories</p>
@@ -114,10 +114,10 @@ export default class PreOrderDetails extends Component {
                                      {/* Single Cat start */}
                                     <div className="col-md-3">
                                         <div className="pre-order-details-single-catt-box-wb-main-itm">
-                                            <Link to="">
+                                            <Link to="/accessories">
                                                 <div className="pre-order-details-single-catt-box-wb text-center">
                                                     <img src={require('../../assets/pre-order-home-livv-4.png')} alt="orponbd online shop"/>
-                                                    <p>Mobile Accessories</p>
+                                                    <p>Accessories</p>
                                                 </div>
                                             </Link>
                                         </div>

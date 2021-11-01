@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import MoreToLoveAllProducts from '../allsections/moretoloveallproducts/MoreToLoveAllProducts';
 import TopBarMenu from '../allsections/topbarsection/TopBarMenu';
 import './mycartpage.css';
@@ -57,14 +57,14 @@ class MyCartPage extends Component {
                                         <textarea name="" id="" cols="30" rows="10" placeholder="Address.."></textarea>
                                     </div>
 
-                                    {/* <div className="obd-preorder-mycart-user-form-input-field">
+                                    <div className="obd-preorder-mycart-user-form-input-field">
                                         <label htmlFor="">Select Area :</label>
                                         <select>
                                             <option value="" selected>--- Select Area ---</option>
                                             <option value="">Inside Dhaka</option>
                                             <option value="">Outside Dhaka</option>
                                         </select>
-                                    </div> */}
+                                    </div>
                                     <div className="obd-preorder-mycart-user-form-input-field">
                                         <button type="submit">Confirm Order</button>
                                     </div>
@@ -85,7 +85,7 @@ class MyCartPage extends Component {
                               {/* Shopping Cart color */}
                               {/* Shopping Cart Order Start ---------------------------Order*/}
                               <div className="my-cart-wv-shoppingcart-order-all-product-itemsx-main-bbox">
-                                  <div className="my-cart-wv-shoppingcart-order-all-product-sellect-all-sec">
+                                  {/* <div className="my-cart-wv-shoppingcart-order-all-product-sellect-all-sec">
                                       <div className="row">
                                           <div className="col-md-9">
                                               <div className="my-cart-wv-shoppingcart-order-all-product-sellect-all-txt">
@@ -99,13 +99,12 @@ class MyCartPage extends Component {
                                               </div>
                                           </div>
                                       </div>
-                                  </div>
+                                  </div> */}
 
                                   <div className="my-cart-wv-shoppingcart-order-all-product-itemsx-prod-box">
                                       <table class="table table-borderedx">
                                           <thead>
                                               <tr>
-                                                  <th scope="col col-6"></th>
                                                   <th scope="col col-6">Product Details</th>
                                                   <th className="text-center" scope="col col-6">Quantity</th>
                                                   <th className="text-center" scope="col col-6">Price</th>
@@ -115,7 +114,6 @@ class MyCartPage extends Component {
 
                                               {/* Single Item start */}
                                               <tr>
-                                                  <td className="my-cart-wv-shoppingcart-order-all-checkkbx"><input type="checkbox"/></td>
                                                   <td style={{width: '55%'}}>
                                                       <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-det">
                                                           <div className="row my-cart-wv-shoppingcart-order-all-product-sn-expdd">
@@ -159,7 +157,6 @@ class MyCartPage extends Component {
                                               {/* Single Item end */}
                                               {/* Single Item start */}
                                               <tr>
-                                                  <td className="my-cart-wv-shoppingcart-order-all-checkkbx"><input type="checkbox"/></td>
                                                   <td style={{width: '55%'}}>
                                                       <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-det">
                                                           <div className="row my-cart-wv-shoppingcart-order-all-product-sn-expdd">
@@ -241,58 +238,6 @@ class MyCartPage extends Component {
                                 </div>
                                 {/* Total Subtotal end */}
 
-                                {/* Checkout Button Link */}
-                                <div className="my-cart-wv-shoppingcart-order-total-proceed-to-ckout-btn-wv">
-                                    <Link to="/">Proceed to Checkout</Link>
-                                </div>
-                                <div className="extraaa-divvv-wv"></div>
-                                {/* Checkout Button Link */}
-
-                                {/* Payment Icon Box start */}
-                                <div className="my-cart-wv-shoppingcart-order-total-payment-icon-wv-main-box">
-                                    <div className="my-cart-wv-shoppingcart-order-total-payment-icon-box-content">
-
-                                        <div className="my-cart-wv-shoppingcart-order-total-payment-icon-hed">
-                                            <p>Payment Methods</p>
-                                        </div>
-
-                                        <div className="row my-cart-wv-shoppingcart-order-total-payment-icon-expdd">
-                                            <div className="col-md-4">
-                                                <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
-                                                    <img src={require('../../assets/bkash-payment-wv.svg')} alt="orponbd online shop"/>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-4">
-                                                <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
-                                                    <img src={require('../../assets/nagad-payment-wv.svg')} alt="orponbd online shop"/>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-4">
-                                                <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
-                                                    <img src={require('../../assets/visa-payment-wv.svg')} alt="orponbd online shop"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="row my-cart-wv-shoppingcart-order-total-payment-icon-expdd">
-                                            <div className="col-md-4">
-                                                <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
-                                                    <img src={require('../../assets/master-card-payment-wv.svg')} alt="orponbd online shop"/>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-4">
-                                                <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
-                                                    <img src={require('../../assets/american-exp-payment-wv.svg')} alt="orponbd online shop"/>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-4">
-                                                <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
-                                                    <img src={require('../../assets/union-pay-payment-wv.svg')} alt="orponbd online shop"/>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* Payment Icon Box end */}
                               </div>
                               {/* Summery End */}
                             </div>

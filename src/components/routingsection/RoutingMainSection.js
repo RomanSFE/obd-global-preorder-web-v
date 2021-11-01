@@ -21,6 +21,17 @@ export default class RoutingMainSection extends Component {
                                     <li><Link to="/my-cart">My Cart</Link></li>
                                     {/* My Cart Page */}
 
+                                    {/* Category Details Page */}
+                                    <li><Link to="/kitchen-accessories">Kitchen Accessories</Link></li>
+                                    <li><Link to="/mens-fashion">Men's Fashion</Link></li>
+                                    <li><Link to="/womens-fashion">Women's Fashion</Link></li>
+                                    <li><Link to="/home-and-living">Home And Living</Link></li>
+                                    <li><Link to="/baby-zone">Baby Zone</Link></li>
+                                    <li><Link to="/smart-watches">Smart Watch</Link></li>
+                                    <li><Link to="/mobile-accessories">Mobile Accessories</Link></li>
+                                    <li><Link to="/accessories">Accessories</Link></li>
+                                    {/* Category Details Page */}
+
                                 </ul>
                             </div>
                         </div>

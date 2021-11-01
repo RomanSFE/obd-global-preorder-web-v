@@ -1,0 +1,93 @@
+/* Top banner Section start */
+.obd-preorder-top-cat-banner-img img {
+    width: 100%;
+    border-radius: 8px;
+    height: 380px;
+}
+.obd-preorder-top-cat-banner-sec {
+    margin-top: 80px;
+}
+/* Top banner Section end */
+
+/* New Item Sort and Select start */
+.obd-category-details-sort-txt-section {
+    margin-top: 25px;
+}
+.obd-category-details-section-right-sort select {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 4px 10px 4px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #5D616D;
+    border: 1px solid #B4BACB;
+    outline: none;
+    width: 200px;
+    height: 34px;
+}
+.obd-category-details-section-item-txt-wv h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #53565F;
+}
+.obd-category-details-section-item-txt-wv {
+    margin-top: 5px;
+}
+/* New Item Sort and Select End */
+
+/* Product Section Originam css. Edit here start */
+.obd-category-details-section-product-box-ex {
+    margin-top: 18px;
+}
+.row.obd-category-details-section-product-bx-ex-pd .col-md-2 {
+    padding: 5px;
+}
+
+.row.obd-category-details-section-product-bx-ex-pd {
+    margin: 0;
+    margin-top: -10px;
+}
+.row.obd-category-details-section-product-bx-ex-pd {
+    margin-bottom: 8px;
+}
+.obd-category-details-section-product-snnggl-itm:hover {
+    transition: .3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+.obd-category-details-section-product-snnggl-itm {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    padding: 2px;
+}
+.obd-category-details-section-product-snnggl-itm a {
+    text-decoration: none;
+}
+.obd-category-details-section-product-snnggl-itm-img img {
+    width: 100%;
+    height: 178px;
+    padding: 3px;
+    border-radius: 7px;
+}
+.obd-category-details-section-product-snnggl-itm-img img:hover {
+    opacity: .70;
+    transition: .2s;
+}
+.obd-category-details-section-product-snnggl-itm-ttxt h3 {
+    font-size: 15px;
+    color: #FF6347;
+    font-weight: 600;
+}
+.obd-category-details-section-product-snnggl-itm-ttxt p {
+    font-size: 12px;
+    color: #9A9FAD;
+    line-height: 17px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+.obd-category-details-section-product-snnggl-itm-ttxt {
+    padding: 3px;
+    margin-top: -5px;
+}
+/* Product Section Originam css. Edit here end */
