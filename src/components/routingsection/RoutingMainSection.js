@@ -19,6 +19,7 @@ export default class RoutingMainSection extends Component {
 
                                     {/* My Cart Page */}
                                     <li><Link to="/my-cart">My Cart</Link></li>
+                                    <li><Link to="/congratulations">Congratulations</Link></li>
                                     {/* My Cart Page */}
 
                                     {/* Category Details Page */}

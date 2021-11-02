@@ -1,0 +1,44 @@
+/* Image Part */
+.my-cart-preorder-g-congratulation-main-bx {
+    box-shadow: 0 3px 8px rgba(0,0,0,.08);
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 80px;
+    border-radius: 7px;
+}
+.my-cart-preorder-g-congrz-bx-banner-img img {
+    width: 45%;
+    margin-left: 20%;
+}
+/* Image Part */
+
+.my-cart-preorder-g-congrz-bx-shop-btn {
+    margin-top: 35px;
+    margin-bottom: 32px;
+}
+.my-cart-preorder-g-congrz-bx-shop-btn a {
+    text-decoration: none;
+    background-color: #FF6347;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 30px 7px 30px;
+    border-radius: 30px;
+    box-shadow: 0 2px 6px rgb(249 145 127);
+}
+.my-cart-preorder-g-congrz-bx-shop-btn a:hover {
+    background-color: #fb401e;
+    transition: .2s;
+}
+.my-cart-preorder-g-congrz-bx-txt h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #FF6347;
+    margin-top: 23px;
+}
+.my-cart-preorder-g-congrz-bx-txt p {
+    font-size: 13px;
+    color: #5D616D;
+    margin-bottom: -20px;
+    line-height: 22px;
+}

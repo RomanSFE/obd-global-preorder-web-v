@@ -13,20 +13,6 @@ export default class MobileAccessories extends Component {
                 <TopBarMenu/>
             </div>
 
-            {/* Top Banner Section Start */}
-            <div className="obd-preorder-top-cat-banner-sec">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="obd-preorder-top-cat-banner-img">
-                                <img src={require('../../../assets/top-brand-xiaomi-banner.png')} alt="orponbd online shop"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* Top Banner Section End */}
-
             {/* Category Item Start */}
             <div className="obd-preorder-category-sub-box">
                 <CategoryItemBox/>

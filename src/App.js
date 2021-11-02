@@ -15,6 +15,7 @@ import HomeAndLiving from './components/categorydetailspage/homeandliving/HomeAn
 import BabyZone from './components/categorydetailspage/babyzone/BabyZone';
 import SmartWatch from './components/categorydetailspage/smartwatch/SmartWatch';
 import Accessories from './components/categorydetailspage/accessories/Accessories';
+import CongratulationPage from './components/mycartpage/congratulationpage/CongratulationPage';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
 
           {/* My Cart  */}
           <Route path="/my-cart" component={MyCartPage}/>
+          <Route path="/congratulations" component={CongratulationPage}/>
           {/* My Cart  */}
 
           {/* Category Details Pages  */}

@@ -179,6 +179,12 @@ class TopBarMenu extends Component {
                                         {/* Sign in main box end */}
                                     </li>
 
+                                    <li className="obd-preorder-cart-count-abb-sec">
+                                        <Link to="/my-cart">
+                                            <img src={require('../../../assets/cart-main.png')} alt="OrponBD Online shop"/> <span>10</span>
+                                        </Link>
+                                    </li>
+
                                     <li className="obd-main-web-v-pre-order-topmenu-only-hamb-mnu">
                                         <Link to="#">
                                             <span><i class="fas fa-bars"></i></span>

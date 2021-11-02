@@ -14,7 +14,7 @@ export default class KitchenAccessoriesDetails extends Component {
             </div>
 
             {/* Top Banner Section Start */}
-            <div className="obd-preorder-top-cat-banner-sec">
+            {/* <div className="obd-preorder-top-cat-banner-sec">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
@@ -24,7 +24,7 @@ export default class KitchenAccessoriesDetails extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* Top Banner Section End */}
 
             {/* Category Item Start */}

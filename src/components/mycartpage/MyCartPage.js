@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import MoreToLoveAllProducts from '../allsections/moretoloveallproducts/MoreToLoveAllProducts';
 import TopBarMenu from '../allsections/topbarsection/TopBarMenu';
 import './mycartpage.css';
@@ -65,8 +65,11 @@ class MyCartPage extends Component {
                                             <option value="">Outside Dhaka</option>
                                         </select>
                                     </div>
-                                    <div className="obd-preorder-mycart-user-form-input-field">
-                                        <button type="submit">Confirm Order</button>
+                                    <div className="obd-preorder-mycart-user-form-input-field for-lnk-only">
+                                        {/* <button type="submit">Confirm Order</button> */}
+                                        <Link to="/congratulations">
+                                            Confirm Order
+                                        </Link>
                                     </div>
                                   </form>
                                 </div>

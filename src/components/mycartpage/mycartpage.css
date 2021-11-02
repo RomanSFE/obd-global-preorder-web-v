@@ -88,6 +88,27 @@
     background-color: #fb3916;
     transition: .3s;
 }
+/* Link Sec */
+.obd-preorder-mycart-user-form-input-field a {
+    border-radius: 6px;
+    border: none;
+    background-color: #FF6347;
+    color: #fff;
+    outline: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 7px 20px 7px 20px;
+    text-decoration: none;
+}
+.obd-preorder-mycart-user-form-input-field a:hover {
+    background-color: #f33f1f;
+    transition: .3s;
+}
+.obd-preorder-mycart-user-form-input-field.for-lnk-only {
+    margin-top: 28px;
+}
+/* Link Sec */
 /* Left Form End */
 
 /* Right Cart Item Start ------------------------------------------*/

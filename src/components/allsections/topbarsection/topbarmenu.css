@@ -166,6 +166,31 @@ li.obd-main-web-v-pre-order-topmenu-only-hamb-mnu a span {
 /* Hambargar Menu */
 /* Hover Part 2 Ed */
 
+/* Cart Icon */
+li.obd-preorder-cart-count-abb-sec img {
+    width: 20px;
+    position: relative;
+}
+li.obd-preorder-cart-count-abb-sec span {
+    position: absolute;
+    top: 12px;
+    margin-left: -4px;
+    background-color: tomato;
+    color: #fff!important;
+    font-size: 10px!important;
+    padding: 1px;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    box-shadow: 0 1px 5px rgb(255 99 71 / 90%);
+    line-height: 17px;
+}
+li.obd-preorder-cart-count-abb-sec {
+    margin-right: 13px;
+}
+/* Cart Icon */
+
 
 
 
