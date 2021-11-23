@@ -42,9 +42,10 @@ class MyCartPage extends Component {
                                 </div>
                                 <div className="obd-pre-order-my-cart-user-info-form">
                                   <form action="">
-                                    <div className="obd-preorder-mycart-user-form-input-field">
+                                    <div className="obd-preorder-mycart-user-form-input-field obd-otp-bx">
                                         <label htmlFor="phone">Mobile Number :</label>
                                         <input type="text" name="phone" placeholder="Enter your Mobile Number.."/>
+                                        <span><button type="submit">Send Otp</button></span>
                                     </div>
 
                                     <div className="obd-preorder-mycart-user-form-input-field">
@@ -88,21 +89,6 @@ class MyCartPage extends Component {
                               {/* Shopping Cart color */}
                               {/* Shopping Cart Order Start ---------------------------Order*/}
                               <div className="my-cart-wv-shoppingcart-order-all-product-itemsx-main-bbox">
-                                  {/* <div className="my-cart-wv-shoppingcart-order-all-product-sellect-all-sec">
-                                      <div className="row">
-                                          <div className="col-md-9">
-                                              <div className="my-cart-wv-shoppingcart-order-all-product-sellect-all-txt">
-                                                  <input type="checkbox"/>
-                                                  <span>Select All</span>
-                                              </div>
-                                          </div>
-                                          <div className="col-md-3">
-                                              <div className="my-cart-wv-shoppingcart-order-all-product-sellect-all-right-txt">
-                                                  <p>Orders</p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div> */}
 
                                   <div className="my-cart-wv-shoppingcart-order-all-product-itemsx-prod-box">
                                       <table class="table table-borderedx">

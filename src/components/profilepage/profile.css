@@ -1,0 +1,281 @@
+.obd-pre-order-product-details-main-sec {
+    margin-top: 70px;
+}
+.obd-pre-order-product-details-bg-bx-wrap {
+    padding: 12px;
+    margin-left: 30px;
+    margin-right: -15px;
+}
+/* Product Content Text Part End */
+
+/* Profile image name part start */
+.obd-pre-order-details-profile-acc-info-box {
+    box-shadow: 0 0px 5px rgba(221, 225, 238,.9);
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    position: relative;
+}
+.row.obd-pre-order-d-profile-acc-excd-pdd .col-md-3 {
+    padding: 0px;
+}
+.obd-pre-order-d-profile-acc-img img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+.obd-pre-order-d-profile-acc-prf-nm-cnnt h4 {
+    font-size: 15px;
+    color: #5D616D;
+    font-weight: 500;
+}
+.obd-pre-order-d-profile-acc-prf-nm-cnnt p {
+    font-size: 13px;
+    color: #9A9FAD;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+.obd-pre-order-d-profile-acc-prf-nm-cnnt p span {
+    margin-right: 4px;
+    font-size: 15px;
+}
+.obd-pre-order-d-profile-acc-prf-nm-cnnt {
+    margin-top: 14px;
+    margin-left: -10px;
+}
+.obd-pre-order-d-profile-acc-prf-my-wlltx {
+    background-color: #F4F4F5;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #B4BACB;
+}
+.obd-pre-order-d-profile-acc-prf-my-wlltx h4 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #5D616D;
+    margin-top: 1px;
+}
+.obd-pre-order-d-profile-acc-prf-my-wlltx p {
+    font-size: 15px;
+    color: #5D616D;
+    margin-top: -2px;
+    margin-bottom: 0px;
+}
+.obd-pre-order-d-profile-acc-prf-my-wlltx p span {
+    color: #FF6347;
+    margin-left: 4px;
+}
+.obd-pre-order-d-profile-acc-prf-cpn a {
+    background-color: #fff;
+    border: 1px solid #9A9FAD;
+    font-size: 14px;
+    color: #9A9FAD;
+    border-radius: 20px;
+    padding: 5px;
+    width: 165px;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 19px;
+    text-decoration: none;
+}
+.obd-pre-order-d-profile-acc-prf-cpn a:hover {
+    background-color: #f1f1f1;
+}
+.obd-pre-order-d-profile-acc-prf-cpn {
+    position: relative;
+}
+.obd-pre-order-d-profile-acc-prf-cpn a span {
+    color: #FF6347;
+}
+/* Profile image name part end */
+
+/* Profile All Order Awaiting Start */
+.obd-pre-order-d-profile-order-count-box {
+    box-shadow: 0 0px 5px rgba(221, 225, 238,.9);
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #FAFAFA;
+    margin-top: -7px;
+}
+.obd-pre-order-d-profile-order-count-txt {
+    margin-top: 20px;
+    border-right: 1px solid #B4BACB;
+}
+.obd-pre-order-d-profile-order-count-txt.pre-o-ccnxt-brdr-non {
+    border-right: none;
+}
+.obd-pre-order-d-profile-order-count-txt h4 {
+    font-size: 17px;
+    font-weight: 500;
+}
+.obd-pre-order-d-profile-order-count-txt p {
+    font-size: 14px;
+    color: #5D616D;
+    margin-bottom: 15px;
+}
+/* Profile All Order Awaiting end ---------------*/
+
+/* /* Profile All Order Main Start */
+.obd-preorder-profile-accnt-allz-main-bbox {
+    margin-top: 12px;
+}
+.obd-preorder-profile-accnt-allz-content-boxx {
+    box-shadow: 0 0px 5px rgba(221, 225, 238,.9);
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+.row.obd-preorder-profile-accnt-allz-ex-pdz .col-md-7 {
+    padding-right: 0px;
+}
+.obd-preorder-profile-accnt-allz-content-hed h4 {
+    background-color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5D616D;
+    height: 44px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    line-height: 45px;
+    padding-left: 13px;
+}
+/* See More Button */
+.obd-preorder-profile-accnt-allz-content-hed {
+    position: relative;
+}
+.obd-preorder-profile-accnt-allz-see-all-rt a {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    font-size: 13px;
+    color: #9A9FAD;
+    text-decoration: none;
+}
+.obd-preorder-profile-accnt-allz-see-all-rt a span i.fas {
+    font-size: 10px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 15px;
+    color: #fff;
+}
+.obd-preorder-profile-accnt-allz-see-all-rt a span {
+    margin-left: 5px;
+}
+.obd-preorder-profile-accnt-allz-see-all-rt a:hover {
+    color: #6084e2;
+    transition: .3s;
+}
+.obd-preorder-profile-accnt-allz-see-all-rt a:hover span i.fas {
+    background-color: #6084e2;
+    transition: .3s;
+}
+/* See More Button */
+/* Table Box start */
+.obd-preorder-profile-accnt-allz-wv-table-box {
+    margin-top: 25px;
+}
+.obd-preorder-profile-accnt-allz-wv-table-box table thead {
+    border: none !important;
+    background-color: #FAFAFA;
+    color: #5D616D;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.obd-preorder-profile-accnt-allz-wv-table-box table thead tr {
+    border: none;
+    border-top-right-radius: 8px;
+}
+.obd-preorder-profile-accnt-allz-wv-table-box table thead tr th {
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+}
+.obd-preorder-profile-accnt-allz-wv-table-box table tbody tr td {
+    color: #5D616D;
+    font-weight: 400;
+    font-size: 13px;
+}
+.obd-preorder-profile-accnt-allz-wv-table-box table {
+    border-top-right-radius: 8px;
+    border: none;
+}
+.obd-preorder-profile-accnt-allz-wv-table-box table tbody tr td {
+    border: none;
+    border-bottom: 1px solid #ececec;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.obd-preorder-profile-accnt-allz-wv-table-box table tbody tr:hover {
+    background-color: #f7f7f7;
+    transition: .2s;
+}
+.obd-preorder-profile-accnt-allz-wv-table-box tbody {
+    border-top: none !important;
+}
+.obd-preorder-profile-accnt-allz-wv-table-box tbody tr {
+    border: none;
+}
+.obd-preorder-profile-accnt-allz-tbl-ordr-main-box {
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.row.obd-preorder-profile-accnt-allz-ttbl-eex-ppd .col-md-3 {
+    padding: 0px;
+    padding-left: 3px;
+}
+.obd-preorder-profile-accnt-snglz-img-prd img {
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+    width: 100%;
+}
+.obd-preorder-profile-accnt-snglz-prd-prc h4 {
+    font-size: 14px;
+    color: #FF6347;
+    font-weight: 600;
+}
+.obd-preorder-profile-accnt-snglz-img-prd-txxt a {
+    font-size: 12px;
+    color: #444750;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.obd-preorder-profile-accnt-snglz-img-prd-txxt a:hover {
+    color: #5074df;
+    transition: .3s;
+}
+.obd-preorder-profile-accnt-allz-tbl-ordr-main-box {
+    margin-top: -20px;
+}
+
+.obd-preorder-profile-accnt-snglz-prd-star-sold p {
+    font-size: 10px;
+    margin-top: 12px;
+    color: #9A9FAD;
+}
+.obd-preorder-profile-accnt-snglz-prd-star-sold p span {
+    margin-right: 5px;
+}
+.obd-preorder-profile-accnt-snglz-prd-star-sold p span i.fas {
+    color: #FF6347;
+}
+/* Whene Table Empty */
+.obd-preorder-profile-accnt-content-o-empty-img img {
+    width: 35%;
+    margin-top: 11%;
+    margin-left: -12px;
+}
+.obd-preorder-profile-accnt-content-o-empty-img-txt p {
+    font-size: 14px;
+    color: #FFCAC0;
+    margin-top: 8px;
+}
+/* Whene Table Empty */
+
+/* Table Box End */
+/* Right Part End ------------------------------------------ */

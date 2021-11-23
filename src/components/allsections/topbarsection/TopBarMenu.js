@@ -195,7 +195,7 @@ class TopBarMenu extends Component {
                                             <div className="obd-preorder-w-v-topmenu-hamg-all-mnu-item">
                                                 <ul>
                                                     <li>
-                                                        <Link to="">Profile</Link>
+                                                        <Link to="/my-profile">Profile</Link>
                                                     </li>
                                                     <li>
                                                         <Link to="">Profile 2</Link>

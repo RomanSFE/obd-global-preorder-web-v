@@ -88,6 +88,24 @@
     background-color: #fb3916;
     transition: .3s;
 }
+
+/* OTP Button */
+.obd-preorder-mycart-user-form-input-field.obd-otp-bx span {
+    margin-left: -82px;
+}
+.obd-preorder-mycart-user-form-input-field.obd-otp-bx span button {
+    padding: 7px 12px 7px 12px !important;
+    font-size: 12px;
+    background-color: #ff6347;
+    border-radius: 6px;
+    margin: 0px;
+}
+.obd-preorder-mycart-user-form-input-field.obd-otp-bx span button:hover {
+    background-color: #ef3a19;
+    transition: .3s;
+}
+/* OTP Button */
+
 /* Link Sec */
 .obd-preorder-mycart-user-form-input-field a {
     border-radius: 6px;
