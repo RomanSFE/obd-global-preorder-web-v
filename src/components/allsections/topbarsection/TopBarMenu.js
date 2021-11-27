@@ -7,6 +7,7 @@ import Modal from 'react-bootstrap/Modal';
 // Tabs
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import UserOtp from './userotp/UserOtp';
 // Tabs
 
 class TopBarMenu extends Component {
@@ -67,7 +68,7 @@ class TopBarMenu extends Component {
 
                                             {/* Modal Start */}
                                             <Modal size="" show={this.state.show} onHide={this.handleClose}>
-                                                <Modal.Header closeButton></Modal.Header>
+                                                <Modal.Header className="obd-preorder-mdl-cls-bx" closeButton></Modal.Header>
                                                 
                                                 <Modal.Body>
                                                 <div className="obd-main-web-vr-topmenu-sig-reg-logo-modal-img text-center">
@@ -90,6 +91,12 @@ class TopBarMenu extends Component {
                                                                             <input type="text" name="email" placeholder="Enter your Phone Number"/>
                                                                             <span><button type="submit">Send OTP</button></span>
                                                                         </div>
+
+                                                                        {/* Conditional Part, This Section Show, After SEND OTP */}
+                                                                        <div className="obd-preorder-otp-sec-mn-bx-wrp">
+                                                                            <UserOtp/>
+                                                                        </div>
+                                                                        {/* Conditional Part, This Section Show, After SEND OTP */}
 
                                                                         <div className="obd-customer-dashboard-user-login-form-signin-btnx">
                                                                             <button type="submit">Sign In</button>

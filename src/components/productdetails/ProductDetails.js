@@ -40,7 +40,7 @@ class ProductDetails extends Component {
                           </div>
                         </div>
                         <div className="col-md-7">
-                          <div className="obd-pre-order-product-details-prod-content-bx text-center">
+                          <div className="obd-pre-order-product-details-prod-content-bx">
                               <h4>Wood Handle Makeup Brush Set, Max Two Lines Here...</h4>
                               <p>Price : <span>৳</span> 550 <span><del><span>৳</span> 650</del></span></p>
                           </div>
@@ -49,7 +49,11 @@ class ProductDetails extends Component {
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, vel tempore.
                               Dolorem perspiciatis aut laudantium? Expedita, quos eaque officiis nulla
                               dolores aspernatur temporibus, magnam error saepe asperiores voluptates
-                              voluptas repellat.</p>
+                              voluptas repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, vel tempore.
+                              Dolorem perspiciatis aut laudantium? Expedita, quos eaque officiis nulla
+                              dolores aspernatur temporibus, magnam error saepe asperiores voluptates
+                              voluptas repellat. Lorem ipsum dolor sit amet consectetur
+                            </p>
                           </div>
                           <div className="obd-pre-order-product-details-prod-content-buy-nw text-center">
                               <Link to="/my-cart">
