@@ -128,42 +128,6 @@ export default class MyAccountSettings extends Component {
                                         <div className="row obd-main-web-version-account-setting-sec-form-ex-pdd">
                                             <div className="col-md-3">
                                                 <div className="obd-main-web-version-account-setting-sec-form-left-txtt">
-                                                    <h4>Email:</h4>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-9">
-                                                <div className="obd-main-web-version-account-setting-sec-form-right-input">
-                                                    <input type="email" placeholder="Email.." />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="row obd-main-web-version-account-setting-sec-form-ex-pdd">
-                                            <div className="col-md-3">
-                                                <div className="obd-main-web-version-account-setting-sec-form-left-txtt">
-                                                    <h4>Password:</h4>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-9">
-                                                <div className="obd-main-web-version-account-setting-sec-form-right-input">
-                                                    <input type="password" placeholder="Password.." />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="row obd-main-web-version-account-setting-sec-form-ex-pdd">
-                                            <div className="col-md-3">
-                                                <div className="obd-main-web-version-account-setting-sec-form-left-txtt">
-                                                    <h4>Confirm Password:</h4>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-9">
-                                                <div className="obd-main-web-version-account-setting-sec-form-right-input">
-                                                    <input type="password" placeholder="Confirm Password.." />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="row obd-main-web-version-account-setting-sec-form-ex-pdd">
-                                            <div className="col-md-3">
-                                                <div className="obd-main-web-version-account-setting-sec-form-left-txtt">
                                                     <h4>Mobile No:</h4>
                                                 </div>
                                             </div>

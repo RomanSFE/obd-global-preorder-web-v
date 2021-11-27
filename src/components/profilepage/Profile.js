@@ -32,57 +32,15 @@ class Profile extends Component {
                                     <img src={require('../../assets/user-profile-wv-pic.png')} alt="orponbd preorder"/>
                                 </div>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-md-5">
                                 <div className="obd-pre-order-d-profile-acc-prf-nm-cnnt">
                                     <h4>Abdulla Al Roman</h4>
-                                    <p><span><i className="fas fa-envelope"></i></span> example@gmail.com</p>
-                                </div>
-                            </div>
-                            <div className="col-md-3">
-                                <div className="obd-pre-order-d-profile-acc-prf-my-wlltx">
-                                    <h4>My Wallet</h4>
-                                    <p>Balance: <span>1750 TK</span></p>
-                                </div>
-                            </div>
-                            <div className="col-md-4">
-                                <div className="obd-pre-order-d-profile-acc-prf-cpn">
-                                    <Link to="">My Coupons (<span> 7 </span>)</Link>
+                                    <p><span><i className="fas fa-phone-alt"></i></span> 01748965748</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {/* Profile Image Box end */}
-
-                    {/* Profile Order Awaiting Box start */}
-                    <div className="obd-pre-order-d-profile-order-count-box">
-                        <div className="row">
-                            <div className="col-md-3">
-                                <div className="obd-pre-order-d-profile-order-count-txt text-center">
-                                    <h4>5</h4>
-                                    <p>All Orders</p>
-                                </div>
-                            </div>
-                            <div className="col-md-3">
-                                <div className="obd-pre-order-d-profile-order-count-txt text-center">
-                                    <h4>2</h4>
-                                    <p>Awaiting Payment</p>
-                                </div>
-                            </div>
-                            <div className="col-md-3">
-                                <div className="obd-pre-order-d-profile-order-count-txt text-center">
-                                    <h4>1</h4>
-                                    <p>Delivery Pending</p>
-                                </div>
-                            </div>
-                            <div className="col-md-3">
-                                <div className="obd-pre-order-d-profile-order-count-txt pre-o-ccnxt-brdr-non text-center">
-                                    <h4>2</h4>
-                                    <p>Delivered</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* Profile Order Awaiting Box end */}
 
                     {/* Profile All Order Main Box start*/}
                     <div className="obd-preorder-profile-accnt-allz-main-bbox">
@@ -91,9 +49,6 @@ class Profile extends Component {
                               <div className="obd-preorder-profile-accnt-allz-content-boxx">
                                   <div className="obd-preorder-profile-accnt-allz-content-hed">
                                       <h4>My Orders</h4>
-                                      <div className="obd-preorder-profile-accnt-allz-see-all-rt">
-                                          <Link to="/my-orders">See More <span><i className="fas fa-angle-right"></i></span></Link>
-                                      </div>
                                   </div>
                                   {/* All Order Start */}
                                   <div className="obd-preorder-profile-accnt-allz-tbl-ordr-main-box">
@@ -113,21 +68,14 @@ class Profile extends Component {
                                                       <td>
                                                           <div className="obd-preorder-profile-accnt-allz-img-txt-main">
                                                               <div className="row obd-preorder-profile-accnt-allz-ttbl-eex-ppd">
-                                                                  <div className="col-md-3">
+                                                                  <div className="col-md-2">
                                                                       <div className="obd-preorder-profile-accnt-snglz-img-prd">
                                                                           <img src={require('../../assets/more-all-products-1.png')} alt=""/>
                                                                       </div>
                                                                   </div>
-                                                                  <div className="col-md-9">
+                                                                  <div className="col-md-10">
                                                                       <div className="obd-preorder-profile-accnt-snglz-img-prd-txxt">
-                                                                          <Link to="/">Product Name In Two Line mazimum, Two Line Max...</Link>
-
-                                                                          <div className="obd-preorder-profile-accnt-snglz-prd-star-sold">
-                                                                              <p>
-                                                                                  <span><i className="fas fa-star"></i></span>
-                                                                                  <span>4.5(150 sold)</span>
-                                                                              </p>
-                                                                          </div>
+                                                                          <Link to="/">Product Name In Two Line mazimum, Two Line Max Two Line Max Two Line Max...</Link>
                                                                       </div>
                                                                   </div>
                                                               </div>
@@ -150,39 +98,53 @@ class Profile extends Component {
                                                       <td>
                                                           <div className="obd-preorder-profile-accnt-allz-img-txt-main">
                                                               <div className="row obd-preorder-profile-accnt-allz-ttbl-eex-ppd">
-                                                                  <div className="col-md-3">
+                                                                  <div className="col-md-2">
                                                                       <div className="obd-preorder-profile-accnt-snglz-img-prd">
                                                                           <img src={require('../../assets/more-all-products-3.png')} alt=""/>
                                                                       </div>
                                                                   </div>
-                                                                  <div className="col-md-9">
+                                                                  <div className="col-md-10">
                                                                       <div className="obd-preorder-profile-accnt-snglz-img-prd-txxt">
-                                                                          <Link to="/">Product Name In Two Line mazimum, Two Line Max...</Link>
-
-                                                                          <div className="obd-preorder-profile-accnt-snglz-prd-star-sold">
-                                                                              <p>
-                                                                                  <span><i className="fas fa-star"></i></span>
-                                                                                  <span>4.5(150 sold)</span>
-                                                                              </p>
-                                                                          </div>
+                                                                          <Link to="/">Product Name In Two Line mazimum, Two Line Max Two Line Max Two Line Max...</Link>
                                                                       </div>
                                                                   </div>
                                                               </div>
                                                           </div>
                                                       </td>
                                                       <td style={{textAlign: 'center'}}>
-                                                          2
+                                                          5
                                                       </td>
                                                       
                                                       <td style={{textAlign: 'center'}}>
                                                           <div className="obd-preorder-profile-accnt-snglz-prd-prc">
-                                                              <h4><span>৳</span> 500</h4>
+                                                              <h4><span>৳</span> 2500</h4>
                                                           </div>
                                                       </td>
                                                   </tr>
                                                   {/* Single Item End */}
                                               </tbody>
                                           </table>
+
+                                          {/* Pagination Start */}
+                                        <div className="row obd-bd-web-v-dashboarrd-support-ticket-pagination-section text-right">
+                                            <div className="col-md-12">
+                                                <div className="orpon-bd-web-v-dashboarrd-mang-rev-pagination-section-box">
+                                                    <div className="orpon-bd-web-v-dashboarrd-mang-rev-pagination-section-content">
+                                                        <ul>
+                                                            <li className="orpon-bbd-dashboarrd-mang-rev-pagination-prevv-txt-webv"><Link to="/"><span><i className="fas fa-angle-left"></i></span></Link></li>
+                                                            <li><Link to="/">1</Link></li>
+                                                            <li><Link to="/">2</Link></li>
+                                                            <li><Link to="/">3</Link></li>
+                                                            <li><Link to="/">4</Link></li>
+                                                            <li><Link to="/">5</Link></li>
+                                                            <li><Link to="/">6</Link></li>
+                                                            <li className="orpon-dashboarrd-mang-rev-pagination-nextt-txt-webv"><Link to="/"> <span><i className="fas fa-angle-right"></i></span></Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {/* Pagination End */}
                                       </div>
                                       {/* Table Box End */}
                                   </div>

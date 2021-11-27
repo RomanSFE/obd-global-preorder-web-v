@@ -24,8 +24,6 @@ export default class RoutingMainSection extends Component {
 
                                     {/* Profile Page */}
                                     <li><Link to="/my-profile">My Profile</Link></li>
-                                    <li><Link to="/my-orders">My Orders</Link></li>
-                                    <li><Link to="/my-order-details">My Order Details</Link></li>
                                     <li><Link to="/my-account-settings">My Account Settings</Link></li>
                                     {/* Profile Page */}
 

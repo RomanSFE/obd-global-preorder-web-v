@@ -77,7 +77,7 @@ class TopBarMenu extends Component {
                                                     <Tabs className="sometexttt">
                                                         <div className="obd-tab-section-pre-order-d-tabbss-webx text-center">
                                                             <TabList>
-                                                                <Tab>Sign Up</Tab>
+                                                                <Tab>Sign In</Tab>
                                                                 <Tab>Join Us</Tab>
                                                             </TabList>
                                                         </div>
@@ -86,35 +86,13 @@ class TopBarMenu extends Component {
                                                                 <form action="">
                                                                     <div className="obd-customer-dashboard-user-login-form-main-sec-content">
 
-                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
-                                                                            <input type="text" name="email" placeholder="Enter your email or Phone"/>
-                                                                        </div>
-
-                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
-                                                                            <input type="password" name="password" placeholder="Enter your password"/>
-                                                                        </div>
-
-                                                                        <div className="obd-customer-dash-user-login-form-secx text-left">
-                                                                            <input type="checkbox"/><span>Remember Me</span>
-                                                                            <Link to="/">Forget your password?</Link>
+                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field snin">
+                                                                            <input type="text" name="email" placeholder="Enter your Phone Number"/>
+                                                                            <span><button type="submit">Send OTP</button></span>
                                                                         </div>
 
                                                                         <div className="obd-customer-dashboard-user-login-form-signin-btnx">
                                                                             <button type="submit">Sign In</button>
-                                                                        </div>
-
-                                                                        <div className="obd-customer-dashboard-user-login-orr-social-section text-center">
-                                                                            <div className="obd-customer-dashboard-user-login-orr-social-or">
-                                                                                <p>Or</p>
-                                                                                <h3>Login with</h3>
-                                                                            </div>
-                                                                            <div className="obd-customer-dashboard-user-login-orr-social-social-icon">
-                                                                                <ul>
-                                                                                    <li className="obd-customer-login-orr-social-icon-ggl"><Link to=""><i class="fab fa-google"></i></Link></li>
-                                                                                    <li className="obd-customer-login-orr-social-icon-fb"><Link to=""><i class="fab fa-facebook-f"></i></Link></li>
-                                                                                    <li className="obd-customer-login-orr-social-icon-ttr"><Link to=""><i class="fab fa-twitter"></i></Link></li>
-                                                                                </ul>
-                                                                            </div>
                                                                         </div>
 
                                                                     </div>
@@ -135,34 +113,8 @@ class TopBarMenu extends Component {
                                                                             <input type="text" name="phone" placeholder="Enter your Phone Number"/>
                                                                         </div>
 
-                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
-                                                                            <input type="email" name="email" placeholder="Enter your email"/>
-                                                                        </div>
-
-                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
-                                                                            <input type="password" name="password" placeholder="Enter your password"/>
-                                                                        </div>
-
-                                                                        <div className="obd-customer-dash-user-login-form-secxz text-left">
-                                                                            <input type="checkbox" name="i_agree_terms_condition" /><span>I agree to <strong>Orpon BD</strong> <span><Link to="">Terms of use</Link></span> and <span><Link to="">Privacy Policy</Link></span></span>
-                                                                        </div>
-
                                                                         <div className="obd-customer-dashboard-user-login-form-signin-btnx">
                                                                             <button type="submit">Create Account</button>
-                                                                        </div>
-
-                                                                        <div className="obd-customer-dashboard-user-login-orr-social-section text-center">
-                                                                            <div className="obd-customer-dashboard-user-login-orr-social-or">
-                                                                                <p>Or</p>
-                                                                                <h3>Join us using</h3>
-                                                                            </div>
-                                                                            <div className="obd-customer-dashboard-user-login-orr-social-social-icon">
-                                                                                <ul>
-                                                                                    <li className="obd-customer-login-orr-social-icon-ggl"><Link to=""><i class="fab fa-google"></i></Link></li>
-                                                                                    <li className="obd-customer-login-orr-social-icon-fb"><Link to=""><i class="fab fa-facebook-f"></i></Link></li>
-                                                                                    <li className="obd-customer-login-orr-social-icon-ttr"><Link to=""><i class="fab fa-twitter"></i></Link></li>
-                                                                                </ul>
-                                                                            </div>
                                                                         </div>
 
                                                                     </div>

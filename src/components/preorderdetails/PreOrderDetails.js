@@ -180,14 +180,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -200,14 +193,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -220,14 +206,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -240,14 +219,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -260,14 +232,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -285,14 +250,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -305,14 +263,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -325,14 +276,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -345,14 +289,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -365,14 +302,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -405,7 +335,7 @@ export default class PreOrderDetails extends Component {
                                 <h4>Men's Fashion</h4>
                             </div>
                         </div>
-                        {/* <div className="col-md-5">
+                        <div className="col-md-5">
                             <div className="obd-pre-order-wv-details-products-new-item-right-sort text-right">
                                 <select>
                                     <option value="" selected>Short By: Default</option>
@@ -414,7 +344,7 @@ export default class PreOrderDetails extends Component {
                                     <option value="">Price(low to high)</option>
                                 </select>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -437,14 +367,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -457,14 +380,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -477,14 +393,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -497,14 +406,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -517,14 +419,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -542,14 +437,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -562,14 +450,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -582,14 +463,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -602,14 +476,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>
@@ -622,14 +489,7 @@ export default class PreOrderDetails extends Component {
                                             </div>
                                             <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="pre-order-wv-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="pre-order-wv-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="pre-order-wv-details-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="pre-order-wv-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
+                                                <h3><span>৳</span> 1200</h3>
                                             </div>
                                         </Link>
                                     </div>

@@ -17,8 +17,6 @@ import SmartWatch from './components/categorydetailspage/smartwatch/SmartWatch';
 import Accessories from './components/categorydetailspage/accessories/Accessories';
 import CongratulationPage from './components/mycartpage/congratulationpage/CongratulationPage';
 import Profile from './components/profilepage/Profile';
-import MyOrders from './components/profilepage/myorders/MyOrders';
-import OrderDetailsPage from './components/profilepage/productorderdetailspage/OrderDetailsPage';
 import MyAccountSettings from './components/profilepage/accountsetting/MyAccountSettings';
 
 function App() {
@@ -40,8 +38,6 @@ function App() {
 
           {/* Profile  */}
           <Route path="/my-profile" component={Profile}/>
-          <Route path="/my-orders" component={MyOrders}/>
-          <Route path="/my-order-details" component={OrderDetailsPage}/>
           <Route path="/my-account-settings" component={MyAccountSettings}/>
           {/* Profile  */}
 

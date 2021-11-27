@@ -16,9 +16,6 @@
     background-color: #fff;
     position: relative;
 }
-.row.obd-pre-order-d-profile-acc-excd-pdd .col-md-3 {
-    padding: 0px;
-}
 .obd-pre-order-d-profile-acc-img img {
     width: 75px;
     height: 75px;
@@ -43,78 +40,7 @@
     margin-top: 14px;
     margin-left: -10px;
 }
-.obd-pre-order-d-profile-acc-prf-my-wlltx {
-    background-color: #F4F4F5;
-    border-radius: 8px;
-    padding: 10px;
-    border: 1px solid #B4BACB;
-}
-.obd-pre-order-d-profile-acc-prf-my-wlltx h4 {
-    font-size: 15px;
-    font-weight: 500;
-    color: #5D616D;
-    margin-top: 1px;
-}
-.obd-pre-order-d-profile-acc-prf-my-wlltx p {
-    font-size: 15px;
-    color: #5D616D;
-    margin-top: -2px;
-    margin-bottom: 0px;
-}
-.obd-pre-order-d-profile-acc-prf-my-wlltx p span {
-    color: #FF6347;
-    margin-left: 4px;
-}
-.obd-pre-order-d-profile-acc-prf-cpn a {
-    background-color: #fff;
-    border: 1px solid #9A9FAD;
-    font-size: 14px;
-    color: #9A9FAD;
-    border-radius: 20px;
-    padding: 5px;
-    width: 165px;
-    text-align: center;
-    position: absolute;
-    right: 10px;
-    top: 19px;
-    text-decoration: none;
-}
-.obd-pre-order-d-profile-acc-prf-cpn a:hover {
-    background-color: #f1f1f1;
-}
-.obd-pre-order-d-profile-acc-prf-cpn {
-    position: relative;
-}
-.obd-pre-order-d-profile-acc-prf-cpn a span {
-    color: #FF6347;
-}
 /* Profile image name part end */
-
-/* Profile All Order Awaiting Start */
-.obd-pre-order-d-profile-order-count-box {
-    box-shadow: 0 0px 5px rgba(221, 225, 238,.9);
-    padding: 15px;
-    border-radius: 8px;
-    background-color: #FAFAFA;
-    margin-top: -7px;
-}
-.obd-pre-order-d-profile-order-count-txt {
-    margin-top: 20px;
-    border-right: 1px solid #B4BACB;
-}
-.obd-pre-order-d-profile-order-count-txt.pre-o-ccnxt-brdr-non {
-    border-right: none;
-}
-.obd-pre-order-d-profile-order-count-txt h4 {
-    font-size: 17px;
-    font-weight: 500;
-}
-.obd-pre-order-d-profile-order-count-txt p {
-    font-size: 14px;
-    color: #5D616D;
-    margin-bottom: 15px;
-}
-/* Profile All Order Awaiting end ---------------*/
 
 /* /* Profile All Order Main Start */
 .obd-preorder-profile-accnt-allz-main-bbox {
@@ -139,40 +65,7 @@
     line-height: 45px;
     padding-left: 13px;
 }
-/* See More Button */
-.obd-preorder-profile-accnt-allz-content-hed {
-    position: relative;
-}
-.obd-preorder-profile-accnt-allz-see-all-rt a {
-    position: absolute;
-    right: 12px;
-    top: 12px;
-    font-size: 13px;
-    color: #9A9FAD;
-    text-decoration: none;
-}
-.obd-preorder-profile-accnt-allz-see-all-rt a span i.fas {
-    font-size: 10px;
-    background-color: #c4c4c4;
-    border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    text-align: center;
-    line-height: 15px;
-    color: #fff;
-}
-.obd-preorder-profile-accnt-allz-see-all-rt a span {
-    margin-left: 5px;
-}
-.obd-preorder-profile-accnt-allz-see-all-rt a:hover {
-    color: #6084e2;
-    transition: .3s;
-}
-.obd-preorder-profile-accnt-allz-see-all-rt a:hover span i.fas {
-    background-color: #6084e2;
-    transition: .3s;
-}
-/* See More Button */
+
 /* Table Box start */
 .obd-preorder-profile-accnt-allz-wv-table-box {
     margin-top: 25px;
@@ -225,7 +118,7 @@
 }
 
 
-.row.obd-preorder-profile-accnt-allz-ttbl-eex-ppd .col-md-3 {
+.row.obd-preorder-profile-accnt-allz-ttbl-eex-ppd .col-md-2 {
     padding: 0px;
     padding-left: 3px;
 }
@@ -253,17 +146,6 @@
     margin-top: -20px;
 }
 
-.obd-preorder-profile-accnt-snglz-prd-star-sold p {
-    font-size: 10px;
-    margin-top: 12px;
-    color: #9A9FAD;
-}
-.obd-preorder-profile-accnt-snglz-prd-star-sold p span {
-    margin-right: 5px;
-}
-.obd-preorder-profile-accnt-snglz-prd-star-sold p span i.fas {
-    color: #FF6347;
-}
 /* Whene Table Empty */
 .obd-preorder-profile-accnt-content-o-empty-img img {
     width: 35%;
@@ -278,4 +160,70 @@
 /* Whene Table Empty */
 
 /* Table Box End */
+
+/* Pagination Start */
+.row.obd-bd-web-v-dashboarrd-support-ticket-pagination-section {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.orpon-bd-web-v-dashboarrd-mang-rev-pagination-section-box {
+    background-color: #fff;
+    padding: 7px;
+    height: 45px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    margin-right: -12px;
+    margin-top: -6px;
+}
+.orpon-bd-web-v-dashboarrd-mang-rev-pagination-section-content ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px 4px 1px 0px;
+}
+.orpon-bd-web-v-dashboarrd-mang-rev-pagination-section-content ul li {
+    display: inline-block;
+    margin-right: 4px;
+    background-color: #F4F4F5;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-color: #B4BACB;
+    line-height: 32px;
+}
+.orpon-bd-web-v-dashboarrd-mang-rev-pagination-section-content ul li a {
+    color: #5D616D;
+    text-decoration: none;
+    font-size: 13px;
+}
+.orpon-bd-web-v-dashboarrd-mang-rev-pagination-section-content ul li:hover {
+    background-color: #FF6347;
+    transition: .2s;
+}
+.orpon-bd-web-v-dashboarrd-mang-rev-pagination-section-content ul li:hover a {
+    color: #fff;
+    display: block;
+    transition: .2s;
+}
+.orpon-bd-web-v-dashboarrd-mang-rev-pagination-section-content ul li a span {
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #707070;
+}
+li.orpon-dashboarrd-mang-rev-pagination-nextt-txt-webv {
+    background-color: #EFF1F7 !important;
+}
+li.orpon-dashboarrd-mang-rev-pagination-nextt-txt-webv a {
+    color: #fff !important;
+}
+li.orpon-bbd-dashboarrd-mang-rev-pagination-prevv-txt-webv:hover {
+    background-color: #dcdcdc !important;
+    transition: .2s;
+}
+li.orpon-dashboarrd-mang-rev-pagination-nextt-txt-webv:hover {
+    background-color: #dcdcdc !important;
+    transition: .2s;
+}
+/* Pagination End */
+
 /* Right Part End ------------------------------------------ */

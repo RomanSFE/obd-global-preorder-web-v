@@ -42,15 +42,14 @@ class MyCartPage extends Component {
                                 </div>
                                 <div className="obd-pre-order-my-cart-user-info-form">
                                   <form action="">
-                                    <div className="obd-preorder-mycart-user-form-input-field obd-otp-bx">
-                                        <label htmlFor="phone">Mobile Number :</label>
-                                        <input type="text" name="phone" placeholder="Enter your Mobile Number.."/>
-                                        <span><button type="submit">Send Otp</button></span>
-                                    </div>
-
                                     <div className="obd-preorder-mycart-user-form-input-field">
                                         <label htmlFor="name">Name :</label>
                                         <input type="text" name="name" placeholder="Enter your Name"/>
+                                    </div>
+                                    
+                                    <div className="obd-preorder-mycart-user-form-input-field obd-otp-bx">
+                                        <label htmlFor="phone">Mobile Number :</label>
+                                        <input type="text" name="phone" placeholder="Enter your Mobile Number.."/>
                                     </div>
 
                                     <div className="obd-preorder-mycart-user-form-input-field">
@@ -100,95 +99,96 @@ class MyCartPage extends Component {
                                               </tr>
                                           </thead>
                                           <tbody>
-
-                                              {/* Single Item start */}
-                                              <tr>
-                                                  <td style={{width: '55%'}}>
-                                                      <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-det">
-                                                          <div className="row my-cart-wv-shoppingcart-order-all-product-sn-expdd">
-                                                              <div className="col-md-3">
-                                                                  <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-img">
-                                                                      <img src={require('../../assets/cart-product-3.png')} alt="orponbd online shop"/>
-                                                                  </div>
-                                                              </div>
-                                                              <div className="col-md-9">
-                                                                  <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-content">
-                                                                      <p>[bluetooth Call] Bakeey CK30 Temperature Measurement Heart Rate Blood Pressure....</p>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                      </div>
-                                                  </td>
-                                                  <td className="text-center">
-                                                      <div className="my-cart-wv-shoppingcart-order-all-product-text-inc-dec">
-                                                          <div className="def-number-input number-input">
-                                                              <button className="my-cart-wv-shoppingcart-order-dec-wv-btn" onClick={this.decrease}><i class="fas fa-minus"></i></button>
-                                                              <input className="quantity my-cart-wv-shoppingcart-order-input-fld" name="quantity" value={this.state.value} onChange={()=> console.log('change')}
-                                                              type="number" />
-                                                              <button className="my-cart-wv-shoppingcart-order-incc-wv-btn" onClick={this.increase}><i className="fas fa-plus"></i></button>
-                                                          </div>
-                                                      </div>
-                                                  </td>
-                                                  <td className="text-center">
-                                                      <div className="my-cart-wv-shoppingcart-order-prod-price-txt">
-                                                          <h3><span>৳</span> 1200</h3>
-                                                      </div>
-                                                      {/* Wishlist and Delete btn */}
-                                                      <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
-                                                          <ul>
-                                                              <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
-                                                              <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
-                                                          </ul>
-                                                      </div>
-                                                      {/* Wishlist and Delete btn */}
-                                                  </td>
-                                              </tr>
-                                              {/* Single Item end */}
-                                              {/* Single Item start */}
-                                              <tr>
-                                                  <td style={{width: '55%'}}>
-                                                      <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-det">
-                                                          <div className="row my-cart-wv-shoppingcart-order-all-product-sn-expdd">
-                                                              <div className="col-md-3">
-                                                                  <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-img">
-                                                                      <img src={require('../../assets/cart-product-4.png')} alt="orponbd online shop"/>
-                                                                  </div>
-                                                              </div>
-                                                              <div className="col-md-9">
-                                                                  <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-content">
-                                                                      <p>[bluetooth Call] Bakeey CK30 Temperature Measurement Heart Rate Blood Pressure....</p>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                      </div>
-                                                  </td>
-                                                  <td className="text-center">
-                                                      <div className="my-cart-wv-shoppingcart-order-all-product-text-inc-dec">
-                                                          <div className="def-number-input number-input">
-                                                              <button className="my-cart-wv-shoppingcart-order-dec-wv-btn" onClick={this.decrease}><i class="fas fa-minus"></i></button>
-                                                              <input className="quantity my-cart-wv-shoppingcart-order-input-fld" name="quantity" value={this.state.value} onChange={()=> console.log('change')}
-                                                              type="number" />
-                                                              <button className="my-cart-wv-shoppingcart-order-incc-wv-btn" onClick={this.increase}><i className="fas fa-plus"></i></button>
-                                                          </div>
-                                                      </div>
-                                                  </td>
-                                                  <td className="text-center">
-                                                      <div className="my-cart-wv-shoppingcart-order-prod-price-txt">
-                                                          <h3><span>৳</span> 1200</h3>
-                                                      </div>
-                                                      {/* Wishlist and Delete btn */}
-                                                      <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
-                                                          <ul>
-                                                              <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
-                                                              <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
-                                                          </ul>
-                                                      </div>
-                                                      {/* Wishlist and Delete btn */}
-                                                  </td>
-                                              </tr>
-                                              {/* Single Item end */}
-                                              
-
+                                            {/* Single Item start */}
+                                            <tr>
+                                                <td style={{width: '55%'}}>
+                                                    <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-det">
+                                                        <div className="row my-cart-wv-shoppingcart-order-all-product-sn-expdd">
+                                                            <div className="col-md-3">
+                                                                <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-img">
+                                                                    <img src={require('../../assets/cart-product-3.png')} alt="orponbd online shop"/>
+                                                                </div>
+                                                            </div>
+                                                            <div className="col-md-9">
+                                                                <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-content">
+                                                                <Link to="/">
+                                                                    Bakeey CK30 Temperature Measurement Max Two Line Here....
+                                                                </Link>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td className="text-center">
+                                                    <div className="my-cart-wv-shoppingcart-order-all-product-text-inc-dec">
+                                                        <div className="def-number-input number-input">
+                                                            <button className="my-cart-wv-shoppingcart-order-dec-wv-btn" onClick={this.decrease}><i class="fas fa-minus"></i></button>
+                                                            <input className="quantity my-cart-wv-shoppingcart-order-input-fld" name="quantity" value={this.state.value} onChange={()=> console.log('change')}
+                                                            type="number" />
+                                                            <button className="my-cart-wv-shoppingcart-order-incc-wv-btn" onClick={this.increase}><i className="fas fa-plus"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td className="text-center">
+                                                    <div className="my-cart-wv-shoppingcart-order-prod-price-txt">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                    {/* Wishlist and Delete btn */}
+                                                    <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
+                                                        <ul>
+                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
+                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* Wishlist and Delete btn */}
+                                                </td>
+                                            </tr>
+                                            {/* Single Item end */}
+                                            {/* Single Item start */}
+                                            <tr>
+                                                <td style={{width: '55%'}}>
+                                                    <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-det">
+                                                        <div className="row my-cart-wv-shoppingcart-order-all-product-sn-expdd">
+                                                            <div className="col-md-3">
+                                                                <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-img">
+                                                                    <img src={require('../../assets/cart-product-4.png')} alt="orponbd online shop"/>
+                                                                </div>
+                                                            </div>
+                                                            <div className="col-md-9">
+                                                                <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-content">
+                                                                    <Link to="/">
+                                                                    Bakeey CK30 Temperature Measurement Max Two Line Here....
+                                                                    </Link>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td className="text-center">
+                                                    <div className="my-cart-wv-shoppingcart-order-all-product-text-inc-dec">
+                                                        <div className="def-number-input number-input">
+                                                            <button className="my-cart-wv-shoppingcart-order-dec-wv-btn" onClick={this.decrease}><i class="fas fa-minus"></i></button>
+                                                            <input className="quantity my-cart-wv-shoppingcart-order-input-fld" name="quantity" value={this.state.value} onChange={()=> console.log('change')}
+                                                            type="number" />
+                                                            <button className="my-cart-wv-shoppingcart-order-incc-wv-btn" onClick={this.increase}><i className="fas fa-plus"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td className="text-center">
+                                                    <div className="my-cart-wv-shoppingcart-order-prod-price-txt">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                    {/* Wishlist and Delete btn */}
+                                                    <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
+                                                        <ul>
+                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
+                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
+                                                        </ul>
+                                                    </div>
+                                                    {/* Wishlist and Delete btn */}
+                                                </td>
+                                            </tr>
+                                            {/* Single Item end */}
                                           </tbody>
                                       </table>
                                   </div>

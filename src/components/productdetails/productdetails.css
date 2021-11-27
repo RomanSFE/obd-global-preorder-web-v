@@ -56,7 +56,7 @@
     color: #6f6d6d;
     font-size: 18px;
     margin-top: 18px;
-    margin-bottom: 38px;
+    margin-bottom: 22px;
 }
 .obd-pre-order-product-details-prod-content-bx p span {
     font-size: 16px;
@@ -64,47 +64,47 @@
     color: #b5b5b5;
 }
 
-/* Buy Now And Add To Cart Start */
-.obd-pre-order-product-details-prod-content-buy-cart-bx ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
+/* Short Desc */
+.obd-pre-order-product-details-prod-content-buy-nw {
+    margin-top: 30px;
 }
-.obd-pre-order-product-details-prod-content-buy-cart-bx ul li {
-    display: inline-block;
-    margin-right: 12px;
-    margin-left: 12px;
+.obd-pre-order-product-details-prod-short-desc {
+    border: 1px solid #f1f1f1;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 6px;
 }
-.obd-pre-order-product-details-prod-content-buy-cart-bx ul li a {
-    background-color: #323232;
-    color: #fff;
+.obd-pre-order-product-details-prod-short-desc p {
     font-size: 13px;
+    color: #979797;
+    margin-bottom: 6px;
+}
+/* Short Desc */
+
+/* Buy Now And Add To Cart Start */
+.obd-pre-order-product-details-prod-content-buy-nw {
+    margin-top: 34px;
+}
+.obd-pre-order-product-details-prod-content-buy-nw a {
+    position: relative;
+    background-color: tomato;
+    color: #fff;
+    font-size: 15px;
     font-weight: 600;
     border-radius: 6px;
-    padding: 8px 25px 8px 25px;
+    padding: 12px 90px 12px 90px;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
 }
-.obd-pre-order-product-details-prod-content-buy-cart-bx button {
-    background-color: tomato;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 600;
-    border-radius: 6px;
-    padding: 8px 25px 8px 25px;
-    text-decoration: none;
-    text-transform: uppercase;
-    border: none;
-    outline: none;
-}
-.obd-pre-order-product-details-prod-content-buy-cart-bx ul li a:hover {
-    background-color: #161616;
-    transition: .3s;
-}
-.obd-pre-order-product-details-prod-content-buy-cart-bx button:hover {
+.obd-pre-order-product-details-prod-content-buy-nw a:hover {
     background-color: #ff3713;
     transition: .3s;
+}
+.obd-pre-order-product-details-prod-content-buy-nw a span {
+    position: absolute;
+    right: 22px;
+    top: 11px;
 }
 /* Buy Now And Add To Cart End */
 

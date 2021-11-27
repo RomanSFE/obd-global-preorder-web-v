@@ -31,14 +31,14 @@ export default class MoreToLoveAllProducts extends Component {
                                 <div className="row pre-order-wv-det-prod-lv-exx-pdddrw">
                                     {/* Single product start */}
                                     <div className="obd-pre-order-all-product-lv-single-product">
-                                        <Link to="#">
+                                        <Link to="/">
                                             <div className="obd-pre-order-all-lv-single-product-web-vs-img">
                                                 <img src={require('../../../assets/women-fas-cat-4.png')} alt="orponbd online shop"/>
                                             </div>
                                             <div className="obd-pre-order-all-lv-single-product-web-vsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="pre-order-wv-details-priicic-web-vvrsn">
-                                                    <h3><span>$</span> 1200</h3>
+                                                    <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
                                         </Link>
@@ -46,14 +46,14 @@ export default class MoreToLoveAllProducts extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-all-product-lv-single-product">
-                                        <Link to="#">
+                                        <Link to="/">
                                             <div className="obd-pre-order-all-lv-single-product-web-vs-img">
                                                 <img src={require('../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="obd-pre-order-all-lv-single-product-web-vsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="pre-order-wv-details-priicic-web-vvrsn">
-                                                    <h3><span>$</span> 1200</h3>
+                                                    <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
                                         </Link>
@@ -61,14 +61,14 @@ export default class MoreToLoveAllProducts extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-all-product-lv-single-product">
-                                        <Link to="#">
+                                        <Link to="/">
                                             <div className="obd-pre-order-all-lv-single-product-web-vs-img">
                                                 <img src={require('../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="obd-pre-order-all-lv-single-product-web-vsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="pre-order-wv-details-priicic-web-vvrsn">
-                                                    <h3><span>$</span> 1200</h3>
+                                                    <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
                                         </Link>
@@ -76,14 +76,14 @@ export default class MoreToLoveAllProducts extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-all-product-lv-single-product">
-                                        <Link to="#">
+                                        <Link to="/">
                                             <div className="obd-pre-order-all-lv-single-product-web-vs-img">
                                                 <img src={require('../../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="obd-pre-order-all-lv-single-product-web-vsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="pre-order-wv-details-priicic-web-vvrsn">
-                                                    <h3><span>$</span> 1200</h3>
+                                                    <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
                                         </Link>
@@ -91,14 +91,14 @@ export default class MoreToLoveAllProducts extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-all-product-lv-single-product">
-                                        <Link to="#">
+                                        <Link to="/">
                                             <div className="obd-pre-order-all-lv-single-product-web-vs-img">
                                                 <img src={require('../../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="obd-pre-order-all-lv-single-product-web-vsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="pre-order-wv-details-priicic-web-vvrsn">
-                                                    <h3><span>$</span> 1200</h3>
+                                                    <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
                                         </Link>
@@ -111,14 +111,14 @@ export default class MoreToLoveAllProducts extends Component {
                                 <div className="row pre-order-wv-det-prod-lv-exx-pdddrw">
                                     {/* Single product start */}
                                     <div className="obd-pre-order-all-product-lv-single-product">
-                                        <Link to="#">
+                                        <Link to="/">
                                             <div className="obd-pre-order-all-lv-single-product-web-vs-img">
                                                 <img src={require('../../../assets/women-fas-cat-7.png')} alt="orponbd online shop"/>
                                             </div>
                                             <div className="obd-pre-order-all-lv-single-product-web-vsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="pre-order-wv-details-priicic-web-vvrsn">
-                                                    <h3><span>$</span> 1200</h3>
+                                                    <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
                                         </Link>
@@ -126,14 +126,14 @@ export default class MoreToLoveAllProducts extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-all-product-lv-single-product">
-                                        <Link to="#">
+                                        <Link to="/">
                                             <div className="obd-pre-order-all-lv-single-product-web-vs-img">
                                                 <img src={require('../../../assets/women-fas-cat-8.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="obd-pre-order-all-lv-single-product-web-vsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="pre-order-wv-details-priicic-web-vvrsn">
-                                                    <h3><span>$</span> 1200</h3>
+                                                    <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
                                         </Link>
@@ -141,14 +141,14 @@ export default class MoreToLoveAllProducts extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-all-product-lv-single-product">
-                                        <Link to="#">
+                                        <Link to="/">
                                             <div className="obd-pre-order-all-lv-single-product-web-vs-img">
                                                 <img src={require('../../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="obd-pre-order-all-lv-single-product-web-vsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="pre-order-wv-details-priicic-web-vvrsn">
-                                                    <h3><span>$</span> 1200</h3>
+                                                    <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
                                         </Link>
@@ -156,14 +156,14 @@ export default class MoreToLoveAllProducts extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-all-product-lv-single-product">
-                                        <Link to="#">
+                                        <Link to="/">
                                             <div className="obd-pre-order-all-lv-single-product-web-vs-img">
                                                 <img src={require('../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="obd-pre-order-all-lv-single-product-web-vsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="pre-order-wv-details-priicic-web-vvrsn">
-                                                    <h3><span>$</span> 1200</h3>
+                                                    <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
                                         </Link>
@@ -171,14 +171,14 @@ export default class MoreToLoveAllProducts extends Component {
                                     {/* Single product end */}
                                     {/* Single product start */}
                                     <div className="obd-pre-order-all-product-lv-single-product">
-                                        <Link to="#">
+                                        <Link to="/">
                                             <div className="obd-pre-order-all-lv-single-product-web-vs-img">
                                                 <img src={require('../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="obd-pre-order-all-lv-single-product-web-vsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="pre-order-wv-details-priicic-web-vvrsn">
-                                                    <h3><span>$</span> 1200</h3>
+                                                    <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
                                         </Link>

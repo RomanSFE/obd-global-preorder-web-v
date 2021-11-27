@@ -6,6 +6,9 @@
     background-color: #fff;
     margin-top: 12px;
 }
+.obd-profile-account-section-main-profile-section {
+    margin-top: 70px;
+}
 /* Account setting Color Part Start */
 .account-settingz-txt-sec-wv-content-color-txtt h4 {
     color: #5D616D;
@@ -131,6 +134,5 @@ li.obd-main-account-setting-sec-form-sbmnt-confrm button:hover {
     margin-left: 10px;
     width: 47%;
     height: 41px;
-
 }
 /* Image Upload Section end */

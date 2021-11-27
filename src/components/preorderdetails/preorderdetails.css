@@ -76,7 +76,6 @@
     color: #fff;
     transition: .3s;
 }
-
 /* Big image sec st */
 .pre-order-details-single-catt-box-wb-main-itm-right-banner {
     height: 435px;
@@ -88,8 +87,6 @@
 }
 /* Big image sec ed */
 /* Preorder single category box end */
-
-
 
 /* Product Section Start -------------*/
 /* New Item Sort and Select start */
@@ -141,7 +138,6 @@
     transition: .3s;
     box-shadow: 0 4px 12px rgba(0,0,0,.08);
 }
-
 .obd-pre-order-wv-details-all-products-single-web-vvesnn-img img {
     width: 100%;
     height: 220px;
@@ -151,11 +147,6 @@
 .obd-pre-order-wv-details-all-products-single-web-vvesnn-img img:hover {
     opacity: .70;
     transition: .2s;
-}
-
-
-.pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt {
-    position: relative;
 }
 .pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt {
     padding: 3px;
@@ -168,44 +159,11 @@
     margin-top: 7px;
     margin-bottom: 6px;
 }
-.pre-order-wv-details-priicice-web-vvrsn h3 {
-    position: absolute;
-    right: 4px;
-    top: 47px;
-}
 .pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt h3 {
     font-size: 15px;
     color: #FF6347;
     font-weight: 600;
 }
-
-/* Star Rating Start*/
-.pre-order-wv-details-start-rattng {
-    margin-top: -8px;
-}
-.pre-order-wv-details-start-rattng .fa-star.checked:before {
-    content: "\f005";
-    color: #FF6347;
-    font-size: 9px;
-}
-.pre-order-wv-details-start-rattng .fa-star:before {
-    content: "\f005";
-    color: #B4BACB;
-    font-size: 9px;
-}
-span.pre-order-wv-details-star-count-number {
-    font-size: 8px;
-    color: #9A9FAD;
-    margin-left: 4px;
-}
-span.pre-order-wv-details-ttotl-star-rat-count {
-    font-size: 8px;
-    color: #9A9FAD;
-    margin-left: 3px;
-}
-/* Star Rating End */
-
-
 .obd-only-for-pre-order-wv-details-view-more-buttonn {
     margin-top: 25px;
     margin-bottom: 32px;

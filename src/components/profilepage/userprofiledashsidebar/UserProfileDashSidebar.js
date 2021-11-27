@@ -29,21 +29,6 @@ class UserProfileDashSidebar extends Component {
                             <NavLink 
                                 tag={Link}
                                 d="navResume"
-                                className="inactive resumeImageHome"
-                                activeClassName="activestyleclasshome"
-                                to="/my-orders"
-                                activeStyle={{
-                                    fontWeight: "normal",
-                                    color: "#fb4c2c"
-                                }}>
-                                    <span className="profile-imggg-none-img"><img src={require('../../../assets/profile-my-order-red.svg')} alt=""/></span>
-                                    <span>My Orders</span>
-                            </NavLink>
-                        </li>
-                        <li className="womennsss-main-cattt-wbv">
-                            <NavLink 
-                                tag={Link}
-                                d="navResume"
                                 className="inactive resumeImageAccSettings"
                                 activeClassName="activestyleclassAccSettings"
                                 to="/my-account-settings"

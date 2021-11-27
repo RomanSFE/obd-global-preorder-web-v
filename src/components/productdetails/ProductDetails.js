@@ -44,17 +44,17 @@ class ProductDetails extends Component {
                               <h4>Wood Handle Makeup Brush Set, Max Two Lines Here...</h4>
                               <p>Price : <span>৳</span> 550 <span><del><span>৳</span> 650</del></span></p>
                           </div>
-                          <div className="obd-pre-order-product-details-prod-content-buy-cart-bx text-center">
-                              <ul>
-                                <li>
-                                  <Link to="/my-cart">
-                                      Buy Now
-                                  </Link>
-                                </li>
-                                <li>
-                                  <button type="submit">Add To Cart</button>
-                                </li>
-                              </ul>
+                          <div className="obd-pre-order-product-details-prod-short-desc">
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, vel tempore.
+                              Dolorem perspiciatis aut laudantium? Expedita, quos eaque officiis nulla
+                              dolores aspernatur temporibus, magnam error saepe asperiores voluptates
+                              voluptas repellat.</p>
+                          </div>
+                          <div className="obd-pre-order-product-details-prod-content-buy-nw text-center">
+                              <Link to="/my-cart">
+                                  Buy Now <span><i className="fas fa-angle-right"></i></span>
+                              </Link>
                           </div>
                         </div>
                       </div>
