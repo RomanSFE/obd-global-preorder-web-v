@@ -5,6 +5,11 @@ import TopBarMenu from '../allsections/topbarsection/TopBarMenu';
 import './mycartpage.css';
 
 class MyCartPage extends Component {
+
+componentDidMount() {
+    window.scrollTo(0, 0)
+    }
+
   state = {
     // For Increase Decrease
     value: 1,

@@ -4,6 +4,11 @@ import PreOrderDetails from '../preorderdetails/PreOrderDetails.js';
 
 
 export default class HomePageWeb extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <>
