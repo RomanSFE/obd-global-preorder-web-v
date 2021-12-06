@@ -52,7 +52,7 @@ componentDidMount() {
                                         <input type="text" name="name" placeholder="Enter your Name"/>
                                     </div>
                                     
-                                    <div className="obd-preorder-mycart-user-form-input-field obd-otp-bx">
+                                    <div className="obd-preorder-mycart-user-form-input-field">
                                         <label htmlFor="phone">Mobile Number :</label>
                                         <input type="text" name="phone" placeholder="Enter your Mobile Number.."/>
                                     </div>
@@ -83,18 +83,18 @@ componentDidMount() {
                         <div className="col-md-7">
                             <div className="obd-pre-order-crt-product-item-list-main-bx">
                               {/* Shopping Cart color */}
-                              <div className="my-cart-wv-shoppingcart-order-summary-section-content-color-txtt">
+                              <div className="my-cart-wv-order-smry-cont-color-txtt">
                                   <h4>Product Items</h4>
-                                  <div className="my-cart-wv-shoppingcart-order-summary-ttxt">
-                                      <span className="my-cart-wv-shoppingcart-order-sum-itm"><span><p><span>7</span> Items</p></span></span>
+                                  <div className="my-cart-wv-order-summary-ttxt">
+                                      <span className="my-cart-wv-sm-order-sum-itm"><span><p><span>7</span> Items</p></span></span>
                                   </div>
-                                  <div className="my-cart-wv-shoppingcart-order-summary-section-brdrr"></div>
+                                  <div className="my-cart-wv-sm-order-sum-itm-brdrr"></div>
                               </div>
                               {/* Shopping Cart color */}
                               {/* Shopping Cart Order Start ---------------------------Order*/}
-                              <div className="my-cart-wv-shoppingcart-order-all-product-itemsx-main-bbox">
+                              <div className="obd-preorder-all-product-itemsx-main-bbox">
 
-                                  <div className="my-cart-wv-shoppingcart-order-all-product-itemsx-prod-box">
+                                  <div className="obd-preorder-all-product-itemsx-prod-box">
                                       <table class="table table-borderedx">
                                           <thead>
                                               <tr>
@@ -107,15 +107,15 @@ componentDidMount() {
                                             {/* Single Item start */}
                                             <tr>
                                                 <td style={{width: '55%'}}>
-                                                    <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-det">
-                                                        <div className="row my-cart-wv-shoppingcart-order-all-product-sn-expdd">
+                                                    <div className="obd-preorder-all-itemsx-sing-prdo-det">
+                                                        <div className="row obd-preorder-all-itemsx-sing-prdo-expdd">
                                                             <div className="col-md-3">
-                                                                <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-img">
+                                                                <div className="obd-preorder-all-itemsx-sing-prdo-img">
                                                                     <img src={require('../../assets/cart-product-3.png')} alt="orponbd online shop"/>
                                                                 </div>
                                                             </div>
                                                             <div className="col-md-9">
-                                                                <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-content">
+                                                                <div className="obd-preorder-all-itemsx-sing-prdo-content">
                                                                 <Link to="/">
                                                                     Bakeey CK30 Temperature Measurement Max Two Line Here....
                                                                 </Link>
@@ -125,12 +125,16 @@ componentDidMount() {
                                                     </div>
                                                 </td>
                                                 <td className="text-center">
-                                                    <div className="my-cart-wv-shoppingcart-order-all-product-text-inc-dec">
+                                                    <div className="obd-preorder-all-itemsx-product-text-inc-dec">
                                                         <div className="def-number-input number-input">
-                                                            <button className="my-cart-wv-shoppingcart-order-dec-wv-btn" onClick={this.decrease}><i class="fas fa-minus"></i></button>
-                                                            <input className="quantity my-cart-wv-shoppingcart-order-input-fld" name="quantity" value={this.state.value} onChange={()=> console.log('change')}
+                                                            <button className="my-cart-wv-tbl-order-dec-wv-btn" onClick={this.decrease}>
+                                                                <i class="fas fa-minus"></i>
+                                                            </button>
+                                                            <input className="quantity obd-z-order-input-fld" name="quantity" value={this.state.value} onChange={()=> console.log('change')}
                                                             type="number" />
-                                                            <button className="my-cart-wv-shoppingcart-order-incc-wv-btn" onClick={this.increase}><i className="fas fa-plus"></i></button>
+                                                            <button className="my-cart-wv-tbl-order-incc-wv-btn" onClick={this.increase}>
+                                                                <i className="fas fa-plus"></i>
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -139,10 +143,14 @@ componentDidMount() {
                                                         <h3><span>৳</span> 1200</h3>
                                                     </div>
                                                     {/* Wishlist and Delete btn */}
-                                                    <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
+                                                    <div className="obd-p-wish-and-dlt-btn">
                                                         <ul>
-                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
-                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
+                                                            <li className="obd-p-btn-wishlst-only-wv">
+                                                                <button><i class="fas fa-heart"></i></button>
+                                                            </li>
+                                                            <li className="obd-p-btn-delete-only-wv">
+                                                                <button><i class="far fa-trash-alt"></i></button>
+                                                            </li>
                                                         </ul>
                                                     </div>
                                                     {/* Wishlist and Delete btn */}
@@ -152,30 +160,34 @@ componentDidMount() {
                                             {/* Single Item start */}
                                             <tr>
                                                 <td style={{width: '55%'}}>
-                                                    <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-det">
-                                                        <div className="row my-cart-wv-shoppingcart-order-all-product-sn-expdd">
+                                                    <div className="obd-preorder-all-itemsx-sing-prdo-det">
+                                                        <div className="row obd-preorder-all-itemsx-sing-prdo-expdd">
                                                             <div className="col-md-3">
-                                                                <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-img">
-                                                                    <img src={require('../../assets/cart-product-4.png')} alt="orponbd online shop"/>
+                                                                <div className="obd-preorder-all-itemsx-sing-prdo-img">
+                                                                    <img src={require('../../assets/cart-product-4.png')} alt="orponbd preorder"/>
                                                                 </div>
                                                             </div>
                                                             <div className="col-md-9">
-                                                                <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-content">
-                                                                    <Link to="/">
+                                                                <div className="obd-preorder-all-itemsx-sing-prdo-content">
+                                                                <Link to="/">
                                                                     Bakeey CK30 Temperature Measurement Max Two Line Here....
-                                                                    </Link>
+                                                                </Link>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td className="text-center">
-                                                    <div className="my-cart-wv-shoppingcart-order-all-product-text-inc-dec">
+                                                    <div className="obd-preorder-all-itemsx-product-text-inc-dec">
                                                         <div className="def-number-input number-input">
-                                                            <button className="my-cart-wv-shoppingcart-order-dec-wv-btn" onClick={this.decrease}><i class="fas fa-minus"></i></button>
-                                                            <input className="quantity my-cart-wv-shoppingcart-order-input-fld" name="quantity" value={this.state.value} onChange={()=> console.log('change')}
+                                                            <button className="my-cart-wv-tbl-order-dec-wv-btn" onClick={this.decrease}>
+                                                                <i class="fas fa-minus"></i>
+                                                            </button>
+                                                            <input className="quantity obd-z-order-input-fld" name="quantity" value={this.state.value} onChange={()=> console.log('change')}
                                                             type="number" />
-                                                            <button className="my-cart-wv-shoppingcart-order-incc-wv-btn" onClick={this.increase}><i className="fas fa-plus"></i></button>
+                                                            <button className="my-cart-wv-tbl-order-incc-wv-btn" onClick={this.increase}>
+                                                                <i className="fas fa-plus"></i>
+                                                            </button>
                                                         </div>
                                                     </div>
                                                 </td>
@@ -184,10 +196,14 @@ componentDidMount() {
                                                         <h3><span>৳</span> 1200</h3>
                                                     </div>
                                                     {/* Wishlist and Delete btn */}
-                                                    <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
+                                                    <div className="obd-p-wish-and-dlt-btn">
                                                         <ul>
-                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
-                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
+                                                            <li className="obd-p-btn-wishlst-only-wv">
+                                                                <button><i class="fas fa-heart"></i></button>
+                                                            </li>
+                                                            <li className="obd-p-btn-delete-only-wv">
+                                                                <button><i class="far fa-trash-alt"></i></button>
+                                                            </li>
                                                         </ul>
                                                     </div>
                                                     {/* Wishlist and Delete btn */}
@@ -201,31 +217,31 @@ componentDidMount() {
                               {/* Shopping Cart Order End ---------------------------Order*/}
 
                               {/* Summery Start */}
-                              <div className="my-cart-wv-shoppingcart-order-summary-section-content-right-sidebar-fixed">
+                              <div className="obd-preorder-all-itemz-total-price-main-bx">
                                 {/* Order Summary Color */}
-                                <div className="my-cart-wv-shoppingcart-order-summary-section-content-color-txtt-right">
+                                <div className="obd-preorder-all-itemz-total-pri-color-txtt">
                                     <h4>Total Amount</h4>
-                                    <div className="my-cart-wv-shoppingcart-order-summary-section-brdrr-right"></div>
+                                    <div className="obd-pre-all-itemz-total-pri-brdrr-right"></div>
                                 </div>
                                 {/* Order Summary Color */}
 
                                 {/* Total Subtotal start */}
-                                <div className="my-cart-wv-shoppingcart-order-total-subtotal-main-box">
-                                    <div className="my-cart-wv-shoppingcart-order-total-subtotal-single-itm">
+                                <div className="obd-pre-all-itemz-subtotal-main-box">
+                                    <div className="obd-pre-all-itemz-subtotal-single-itm">
                                         <p>Subtotal :</p>
-                                        <span className="my-cart-wv-shoppingcart-order-total-subtotal-amnt-ab">
+                                        <span className="obd-pre-all-itemz-subtotal-amnt-ab">
                                           <h3><span>৳</span> 2400</h3>
                                         </span>
                                     </div>
-                                    <div className="my-cart-wv-shoppingcart-order-total-subtotal-single-itm">
+                                    <div className="obd-pre-all-itemz-subtotal-single-itm">
                                         <p>Delivery Charge :</p>
-                                        <span className="my-cart-wv-shoppingcart-order-total-subtotal-amnt-ab">
+                                        <span className="obd-pre-all-itemz-subtotal-amnt-ab">
                                           <h3><span>৳</span> 60</h3>
                                         </span>
                                     </div>
-                                    <div className="my-cart-wv-shoppingcart-order-total-subtotal-single-itm total-itemxs">
+                                    <div className="obd-pre-all-itemz-subtotal-single-itm total-itemxs">
                                         <p>Total <span>(2 Items)</span></p>
-                                        <span className="my-cart-wv-shoppingcart-order-total-subtotal-amnt-ab total-itemxspz">
+                                        <span className="obd-pre-all-itemz-subtotal-amnt-ab total-itemxspz">
                                           <h3><span>৳</span> 2460</h3>
                                         </span>
                                     </div>

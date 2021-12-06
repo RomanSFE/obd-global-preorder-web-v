@@ -13,20 +13,6 @@ export default class KitchenAccessoriesDetails extends Component {
                 <TopBarMenu/>
             </div>
 
-            {/* Top Banner Section Start */}
-            {/* <div className="obd-preorder-top-cat-banner-sec">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="obd-preorder-top-cat-banner-img">
-                                <img src={require('../../../assets/grocery-main-page-main-banner.png')} alt="orponbd online shop"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-            {/* Top Banner Section End */}
-
             {/* Category Item Start */}
             <div className="obd-preorder-category-sub-box">
                 <CategoryItemBox/>

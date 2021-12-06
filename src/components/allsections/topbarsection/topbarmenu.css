@@ -235,7 +235,7 @@ li.obd-preorder-cart-count-abb-sec {
 /* Signin Hover End */
 
 /* Signin Modal Start --------------  */
-.obd-main-web-vr-topmenu-sig-reg-logo-modal-img img {
+.obd-preorder-sig-reg-logo-modal-img img {
     width: 35%;
     margin-top: -20px;
     margin-bottom: 32px;
@@ -283,7 +283,7 @@ li.react-tabs__tab--selected {
 .obd-preorder-gl-main-user-login-form-main-sec {
     padding: 10px 25px 10px 25px;
 }
-.obd-customer-signin-dashboard-user-login-form-input-field input {
+.obd-preorder-wv-login-form-input-field input {
     border: none;
     background-color: #F4F4F5;
     border-radius: 8px;
@@ -295,13 +295,13 @@ li.react-tabs__tab--selected {
     padding-left: 12px;
     border: 1px solid #e8e8e8;
 }
-.obd-customer-signin-dashboard-user-login-form-input-field input::placeholder {
+.obd-preorder-wv-login-form-input-field input::placeholder {
     color: #8e8e8e;
 }
-.obd-customer-signin-dashboard-user-login-form-input-field {
+.obd-preorder-wv-login-form-input-field {
     margin-bottom: 15px;
 }
-.obd-customer-signin-dashboard-user-login-form-input-field.snin span button {
+.obd-preorder-wv-login-form-input-field.snin span button {
     margin-left: -87px;
     height: 40px;
     border-radius: 8px;
@@ -315,11 +315,11 @@ li.react-tabs__tab--selected {
     padding-left: 12px;
     padding-right: 12px;
 }
-.obd-customer-signin-dashboard-user-login-form-input-field.snin span button:hover {
+.obd-preorder-wv-login-form-input-field.snin span button:hover {
     background-color: #000000;
     transition: .3s;
 }
-.obd-customer-dashboard-user-login-form-signin-btnx button {
+.obd-preorder-wv-login-signin-btnx button {
     background-color: #FF6347;
     border: none;
     color: #fff;
@@ -331,7 +331,7 @@ li.react-tabs__tab--selected {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.obd-customer-dashboard-user-login-form-signin-btnx button:hover {
+.obd-preorder-wv-login-signin-btnx button:hover {
     background-color: #fa4120;
     transition: .2s;
 }

@@ -140,16 +140,16 @@ export default class PreOrderDetails extends Component {
             {/* Top Banner Box End */}
 
             {/* Products Section start Kitchen Accessories */}
-            <div className="obd-pre-order-wv-details-products-new-item-for-you-txt-section">
+            <div className="obd-pre-order-wv-details-products-main-tp-sec">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7">
-                            <div className="obd-pre-order-wv-details-products-new-item-txt-wv">
+                            <div className="obd-pre-order-wv-details-pd-hd-txt-wv">
                                 <h4>Kitchen Accessories</h4>
                             </div>
                         </div>
                         <div className="col-md-5">
-                            <div className="obd-pre-order-wv-details-products-new-item-right-sort text-right">
+                            <div className="obd-pre-order-wv-details-pd-right-sort text-right">
                                 <select>
                                     <option value="" selected>Short By: Default</option>
                                     <option value="">Orders</option>
@@ -162,23 +162,22 @@ export default class PreOrderDetails extends Component {
                 </div>
             </div>
 
-
             {/* Pre-order All Products Start */}
-            <div className="obd-pre-order-wv-details-products-webversion-main-sectionx">
+            <div className="obd-pre-order-wv-details-prod-main-secz">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
                             
-                            <div className="obd-pre-order-wv-det-section-all-products-sec-box">
+                            <div className="obd-preorder-wv-det-section-all-prod-sec-box">
                                 {/* Single Roww Start */}
                                 <div className="row pre-order-wv-det-prod-exx-pdddrw">
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
                                         <Link to="/products-details">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
                                                 <img src={require('../../assets/women-fas-cat-4.png')} alt="orponbd online shop"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -186,12 +185,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
                                         <Link to="/products-details">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
                                                 <img src={require('../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -199,12 +198,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
                                         <Link to="/products-details">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
+                                                <img src={require('../../assets/women-fas-cat-3.png')} alt="orponbd preorder"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -212,12 +211,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
                                         <Link to="/products-details">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
+                                                <img src={require('../../assets/women-fas-cat-6.png')} alt="orponbd preorder"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -225,12 +224,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
                                         <Link to="/products-details">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
+                                                <img src={require('../../assets/women-fas-cat-5.png')} alt="orponbd preorder"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -243,12 +242,12 @@ export default class PreOrderDetails extends Component {
                                 {/* Single Roww Start */}
                                 <div className="row best-sell-det-prod-exx-pdddrw">
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
                                         <Link to="/products-details">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
                                                 <img src={require('../../assets/women-fas-cat-7.png')} alt="orponbd online shop"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -256,12 +255,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
                                         <Link to="/products-details">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/women-fas-cat-8.png')} alt="orponbd global collections"/>
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
+                                                <img src={require('../../assets/women-fas-cat-8.png')} alt="orponbd preorder"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -269,12 +268,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
                                         <Link to="/products-details">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
+                                                <img src={require('../../assets/women-fas-cat-9.png')} alt="orponbd preorder"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -282,12 +281,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
                                         <Link to="/products-details">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
                                                 <img src={require('../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -295,12 +294,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
                                         <Link to="/products-details">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
                                                 <img src={require('../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -317,26 +316,24 @@ export default class PreOrderDetails extends Component {
             </div>
             {/* Pre-Order KItchen All Products End */}
 
-           <div className="obd-only-for-pre-order-wv-details-view-more-buttonn">
-                <div className="moreto-love-web-version-view-more-btn text-center">
-                    <button>View More <span><i className="fas fa-angle-down"></i></span></button>
-                </div>
-           </div>
+            <div className="obd-preorder-wv-details-see-allz text-center">
+                <Link to="kitchen-accessories">View More</Link>
+            </div>
             {/* Products Section end Kitchenn -------- */}
             
             {/* ------------------------ */}
 
             {/* Products Section start */}
-            <div className="obd-pre-order-wv-details-products-new-item-for-you-txt-section">
+            <div className="obd-pre-order-wv-details-products-main-tp-sec">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7">
-                            <div className="obd-pre-order-wv-details-products-new-item-txt-wv">
+                            <div className="obd-pre-order-wv-details-pd-hd-txt-wv">
                                 <h4>Men's Fashion</h4>
                             </div>
                         </div>
                         <div className="col-md-5">
-                            <div className="obd-pre-order-wv-details-products-new-item-right-sort text-right">
+                            <div className="obd-pre-order-wv-details-pd-right-sort text-right">
                                 <select>
                                     <option value="" selected>Short By: Default</option>
                                     <option value="">Orders</option>
@@ -351,21 +348,21 @@ export default class PreOrderDetails extends Component {
 
 
             {/* Pre-order All Products Start */}
-            <div className="obd-pre-order-wv-details-products-webversion-main-sectionx">
+            <div className="obd-pre-order-wv-details-prod-main-secz">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
                             
-                            <div className="obd-pre-order-wv-det-section-all-products-sec-box">
+                            <div className="obd-preorder-wv-det-section-all-prod-sec-box">
                                 {/* Single Roww Start */}
                                 <div className="row pre-order-wv-det-prod-exx-pdddrw">
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/women-fas-cat-4.png')} alt="orponbd online shop"/>
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
+                                        <Link to="/products-details">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
+                                                <img src={require('../../assets/women-fas-cat-5.png')} alt="orponbd online shop"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -373,12 +370,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
+                                        <Link to="/products-details">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
                                                 <img src={require('../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -386,12 +383,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
+                                        <Link to="/products-details">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
+                                                <img src={require('../../assets/women-fas-cat-3.png')} alt="orponbd preorder"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -399,12 +396,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
+                                        <Link to="/products-details">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
+                                                <img src={require('../../assets/women-fas-cat-6.png')} alt="orponbd preorder"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -412,12 +409,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
+                                        <Link to="/products-details">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
+                                                <img src={require('../../assets/women-fas-cat-5.png')} alt="orponbd preorder"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -430,12 +427,12 @@ export default class PreOrderDetails extends Component {
                                 {/* Single Roww Start */}
                                 <div className="row best-sell-det-prod-exx-pdddrw">
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
+                                        <Link to="/products-details">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
                                                 <img src={require('../../assets/women-fas-cat-7.png')} alt="orponbd online shop"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -443,12 +440,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/women-fas-cat-8.png')} alt="orponbd global collections"/>
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
+                                        <Link to="/products-details">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
+                                                <img src={require('../../assets/women-fas-cat-8.png')} alt="orponbd preorder"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -456,12 +453,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
+                                        <Link to="/products-details">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
+                                                <img src={require('../../assets/women-fas-cat-9.png')} alt="orponbd preorder"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -469,12 +466,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
+                                        <Link to="/products-details">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
                                                 <img src={require('../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -482,12 +479,12 @@ export default class PreOrderDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-pre-order-wv-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-pre-order-wv-details-all-products-single-web-vvesnn-img">
+                                    <div className="obd-preorder-wv-details-all-prod-sngl-itm">
+                                        <Link to="/products-details">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-img">
                                                 <img src={require('../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="pre-order-wv-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-preorder-wv-details-all-prod-sngl-itm-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <h3><span>৳</span> 1200</h3>
                                             </div>
@@ -504,11 +501,9 @@ export default class PreOrderDetails extends Component {
             </div>
             {/* Pre-Order KItchen All Products End */}
 
-           <div className="obd-only-for-pre-order-wv-details-view-more-buttonn">
-                <div className="moreto-love-web-version-view-more-btn text-center">
-                    <button>View More <span><i className="fas fa-angle-down"></i></span></button>
-                </div>
-           </div>
+            <div className="obd-preorder-wv-details-see-allz text-center">
+                <Link to="/mens-fashion">View More</Link>
+            </div>
             {/* Products Section end Kitchenn -------- */}
 
             </>

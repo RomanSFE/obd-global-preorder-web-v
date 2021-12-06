@@ -71,7 +71,7 @@ class TopBarMenu extends Component {
                                                 <Modal.Header className="obd-preorder-mdl-cls-bx" closeButton></Modal.Header>
                                                 
                                                 <Modal.Body>
-                                                <div className="obd-main-web-vr-topmenu-sig-reg-logo-modal-img text-center">
+                                                <div className="obd-preorder-sig-reg-logo-modal-img text-center">
                                                     <img src={require('../../../assets/signin-logo-img.png')} alt="OrponBD Online shop"/>
                                                 </div>
 
@@ -85,9 +85,9 @@ class TopBarMenu extends Component {
                                                         <TabPanel>
                                                             <div className="obd-preorder-gl-main-user-login-form-main-sec">
                                                                 <form action="">
-                                                                    <div className="obd-customer-dashboard-user-login-form-main-sec-content">
+                                                                    <div className="obd-preorder-wv-main-sec-content">
 
-                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field snin">
+                                                                        <div className="obd-preorder-wv-login-form-input-field snin">
                                                                             <input type="text" name="email" placeholder="Enter your Phone Number"/>
                                                                             <span><button type="submit">Send OTP</button></span>
                                                                         </div>
@@ -98,7 +98,7 @@ class TopBarMenu extends Component {
                                                                         </div>
                                                                         {/* Conditional Part, This Section Show, After SEND OTP */}
 
-                                                                        <div className="obd-customer-dashboard-user-login-form-signin-btnx">
+                                                                        <div className="obd-preorder-wv-login-signin-btnx">
                                                                             <button type="submit">Sign In</button>
                                                                         </div>
 
@@ -110,17 +110,17 @@ class TopBarMenu extends Component {
                                                         <TabPanel>
                                                             <div className="obd-preorder-gl-main-user-login-form-main-sec">
                                                                 <form action="">
-                                                                    <div className="obd-preorder-gl-main-user-login-form-main-sec-content">
+                                                                    <div className="obd-preorder-wv-main-sec-content">
 
-                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
+                                                                        <div className="obd-preorder-wv-login-form-input-field">
                                                                             <input type="text" name="name" placeholder="Enter your Name"/>
                                                                         </div>
 
-                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
+                                                                        <div className="obd-preorder-wv-login-form-input-field">
                                                                             <input type="text" name="phone" placeholder="Enter your Phone Number"/>
                                                                         </div>
 
-                                                                        <div className="obd-customer-dashboard-user-login-form-signin-btnx">
+                                                                        <div className="obd-preorder-wv-login-signin-btnx">
                                                                             <button type="submit">Create Account</button>
                                                                         </div>
 
