@@ -145,7 +145,7 @@ export default class PreOrderDetails extends Component {
                     <div className="row">
                         <div className="col-md-7">
                             <div className="obd-pre-order-wv-details-pd-hd-txt-wv">
-                                <h4>Kitchen Accessories</h4>
+                                <h1>Kitchen Accessories</h1>
                             </div>
                         </div>
                         <div className="col-md-5">
@@ -329,7 +329,7 @@ export default class PreOrderDetails extends Component {
                     <div className="row">
                         <div className="col-md-7">
                             <div className="obd-pre-order-wv-details-pd-hd-txt-wv">
-                                <h4>Men's Fashion</h4>
+                                <h1>Men's Fashion</h1>
                             </div>
                         </div>
                         <div className="col-md-5">

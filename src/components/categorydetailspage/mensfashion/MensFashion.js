@@ -24,7 +24,7 @@ export default class MensFashion extends Component {
                     <div className="row">
                         <div className="col-md-7">
                             <div className="obd-category-details-section-item-txt-wv">
-                                <h4>Men's Fashion For You</h4>
+                                <h1>Men's Fashion For You</h1>
                             </div>
                         </div>
                         <div className="col-md-5">

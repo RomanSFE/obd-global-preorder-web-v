@@ -24,7 +24,7 @@ export default class SmartWatch extends Component {
                     <div className="row">
                         <div className="col-md-7">
                             <div className="obd-category-details-section-item-txt-wv">
-                                <h4>Smart Watch For You</h4>
+                                <h1>Smart Watch For You</h1>
                             </div>
                         </div>
                         <div className="col-md-5">

@@ -46,7 +46,7 @@ class ProductDetails extends Component {
                       </div>
                       <div className="col-md-7">
                         <div className="obd-pre-order-product-details-prod-content-bx">
-                            <h4>Wood Handle Makeup Brush Set, Max Two Lines Here...</h4>
+                            <h1>Wood Handle Makeup Brush Set, Max Two Lines Here...</h1>
                             <p>Price : <span>৳</span> 550 <span><del><span>৳</span> 650</del></span></p>
                         </div>
                         <div className="obd-pre-order-product-details-prod-short-desc">
