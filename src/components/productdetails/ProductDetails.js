@@ -4,6 +4,8 @@ import MoreToLoveAllProducts from '../allsections/moretoloveallproducts/MoreToLo
 import TopBarMenu from '../allsections/topbarsection/TopBarMenu';
 import './productdetails.css';
 
+import {Helmet} from "react-helmet";
+
 class ProductDetails extends Component {
 
   componentDidMount() {
@@ -16,6 +18,14 @@ class ProductDetails extends Component {
           <div className="obd-preorder-page-web-top-menu">
               <TopBarMenu/>
           </div>
+
+          {/* Meta Tags */}
+          <Helmet>
+              <meta charSet="utf-8" />
+              <title>Product Main Title Here...</title>
+              <meta name="description" content="Product Meta Description Here, Max 140-150 Characters.." />
+          </Helmet>
+          {/* Meta Tags */}
 
           {/* Product Details Section Start */}
           <div className="obd-pre-order-product-details-main-sec">
