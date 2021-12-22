@@ -29,9 +29,6 @@
     padding-left: 0px;
     margin-left: -3px;
 }
-.row.pre-order-section-boxs-exx-cat-row {
-    margin-bottom: 22px;
-}
 .row.pre-order-section-boxs-exx-cat-row .col-md-3 {
     margin: 0px;
     padding-right: 8px;
@@ -49,6 +46,9 @@
 }
 .pre-order-details-single-catt-box-wb-main-itm a {
     text-decoration: none;
+}
+.pre-order-details-single-catt-box-wb-main-itm {
+    margin-bottom: 18px;
 }
 .pre-order-texxt-comtent-hedd-text h4 {
     color: #A127F2;
@@ -87,6 +87,27 @@
 }
 /* Big image sec ed */
 /* Preorder single category box end */
+
+/* Banner Full Start -------------------------------------- */
+.pre-order-details-single-catt-box-wb-main-itm {
+    margin-bottom: 18px;
+}
+.obd-top-banner-full-main-box {
+    margin-top: 80px;
+}
+.top-banner-full-img-sec img {
+    width: 100%;
+    height: 260px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+}
+.obd-banner-full-all-cattgryz {
+    background-color: #fff;
+    padding: 22px;
+    border-radius: 12px;
+    padding-bottom: 8px;
+}
+/* Banner Full End -------------------------------------- */
 
 /* Product Section Start -------------*/
 /* New Item Sort and Select start */

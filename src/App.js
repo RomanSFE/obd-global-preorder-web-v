@@ -18,6 +18,13 @@ import Accessories from './components/categorydetailspage/accessories/Accessorie
 import CongratulationPage from './components/mycartpage/congratulationpage/CongratulationPage';
 import Profile from './components/profilepage/Profile';
 import MyAccountSettings from './components/profilepage/accountsetting/MyAccountSettings';
+import FooterSec from './components/footer/FooterSec';
+
+// About and terms of condition pages
+import AboutUs from './components/termsandprivacypages/AboutUs';
+import TermsOfService from './components/termsandprivacypages/TermsOfService';
+import PrivacyPolicy from './components/termsandprivacypages/PrivacyPolicy';
+// About and terms of condition pages
 
 function App() {
   return (
@@ -52,9 +59,21 @@ function App() {
           <Route path="/mobile-accessories" component={MobileAccessories}/>
           {/* Category Details Page  */}
 
+          {/* About and terms of condition pages */}
+          <Route path="/about" component={AboutUs}/>
+          <Route path="/terms-of-service" component={TermsOfService}/>
+          <Route path="/privacy-policy" component={PrivacyPolicy}/>
+          {/* About and terms of condition pages */}
+
         </Switch>
         
       </div>
+
+      {/* Footer Part */}
+      <div className="obd-footer-home-wrap">
+          <FooterSec/>
+      </div>
+      {/* Footer Part */}
       </>
   );
 }

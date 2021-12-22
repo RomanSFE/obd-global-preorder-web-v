@@ -139,6 +139,111 @@ export default class PreOrderDetails extends Component {
             </div>
             {/* Top Banner Box End */}
 
+            {/* This Section Show When Active Full Width Banner In The Backend */}
+            {/* Top Banner Full */}
+            {/* <div className="obd-top-banner-full-main-box">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="top-banner-full-img-sec">
+                                <img src={require('../../assets/grocery-main-page-main-banner.png')} alt="online shop"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="obd-banner-full-all-cattgryz">
+                                <div className="row pre-order-section-boxs-exx-cat-row">
+                                    <div className="col-md-3">
+                                        <div className="pre-order-details-single-catt-box-wb-main-itm">
+                                            <Link to="/kitchen-accessories">
+                                                <div className="pre-order-details-single-catt-box-wb text-center">
+                                                    <img src={require('../../assets/pre-order-kitchen-1.png')} alt="orponbd online shop"/>
+                                                    <p>Kitchen Accessories</p>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3">
+                                        <div className="pre-order-details-single-catt-box-wb-main-itm">
+                                            <Link to="/mens-fashion">
+                                                <div className="pre-order-details-single-catt-box-wb text-center">
+                                                    <img src={require('../../assets/pre-order-menn-2.png')} alt="orponbd online shop"/>
+                                                    <p>Men's Fashion</p>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3">
+                                        <div className="pre-order-details-single-catt-box-wb-main-itm">
+                                            <Link to="/womens-fashion">
+                                                <div className="pre-order-details-single-catt-box-wb text-center">
+                                                    <img src={require('../../assets/pre-order-womens-3.png')} alt="orponbd online shop"/>
+                                                    <p>Women's Fashion</p>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3">
+                                        <div className="pre-order-details-single-catt-box-wb-main-itm">
+                                            <Link to="/home-and-living">
+                                                <div className="pre-order-details-single-catt-box-wb text-center">
+                                                    <img src={require('../../assets/pre-order-home-livv-4.png')} alt="orponbd online shop"/>
+                                                    <p>Home & Living</p>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3">
+                                        <div className="pre-order-details-single-catt-box-wb-main-itm">
+                                            <Link to="/baby-zone">
+                                                <div className="pre-order-details-single-catt-box-wb text-center">
+                                                    <img src={require('../../assets/pre-order-kitchen-1.png')} alt="orponbd online shop"/>
+                                                    <p>Baby Zone</p>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3">
+                                        <div className="pre-order-details-single-catt-box-wb-main-itm">
+                                            <Link to="/smart-watches">
+                                                <div className="pre-order-details-single-catt-box-wb text-center">
+                                                    <img src={require('../../assets/pre-order-menn-2.png')} alt="orponbd online shop"/>
+                                                    <p>Smart Watches</p>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3">
+                                        <div className="pre-order-details-single-catt-box-wb-main-itm">
+                                            <Link to="/mobile-accessories">
+                                                <div className="pre-order-details-single-catt-box-wb text-center">
+                                                    <img src={require('../../assets/pre-order-womens-3.png')} alt="orponbd online shop"/>
+                                                    <p>Mobile Accessories</p>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-3">
+                                        <div className="pre-order-details-single-catt-box-wb-main-itm">
+                                            <Link to="/accessories">
+                                                <div className="pre-order-details-single-catt-box-wb text-center">
+                                                    <img src={require('../../assets/pre-order-home-livv-4.png')} alt="orponbd online shop"/>
+                                                    <p>Accessories</p>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+            {/* Top Banner Full End */}
+            {/* This Section Show When Active Full Width Banner In The Backend */}
+
             {/* Products Section start Kitchen Accessories */}
             <div className="obd-pre-order-wv-details-products-main-tp-sec">
                 <div className="container">

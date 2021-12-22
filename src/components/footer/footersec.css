@@ -1,0 +1,37 @@
+.obd-global-preorder-footermain-bx {
+    background-color: #ff6347;
+    margin-top: 45px;
+    padding: 25px;
+}
+.obd-global-preorder-footermain-content h3 {
+    font-size: 15px;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+.obd-global-preorder-footermain-content p {
+    font-size: 13px;
+    color: #e5e5e5;
+    margin-bottom: 10px;
+}
+
+/* Links */
+.obd-global-preorder-footermain-lnks ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.obd-global-preorder-footermain-lnks ul li {
+    display: block;
+}
+.obd-global-preorder-footermain-lnks ul li a {
+    color: #f3f3f3;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.obd-global-preorder-footermain-lnks ul li a:hover {
+    color: #d3d3d3;
+    transition: .3s;
+}
+/* Links */
